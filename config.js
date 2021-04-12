@@ -16,13 +16,13 @@ module.exports = {
       path: '/about'
     },
     {
-      label: 'Articles',
+      label: 'Blog',
       path: '/'
     },
-    {
-      label: 'Research',
-      path: '/research'
-    }
+    // {
+    //   label: 'Research',
+    //   path: '/research'
+    // }
   ],
   author: {
     name: 'Fumiyuki Kato',
