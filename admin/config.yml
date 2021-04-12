@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
 
 media_folder: "static/media"
 public_folder: "/media"
@@ -28,9 +28,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
-  - name: "pages"
-    label: "Pages"
-    folder: "content/pages"
+  - name: "memo"
+    label: "Memo"
+    folder: "content/memo"
     create: true
     slug: "{{slug}}"
     fields:
