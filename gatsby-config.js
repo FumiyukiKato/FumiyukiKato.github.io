@@ -12,6 +12,7 @@ module.exports = {
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
+    jaMenu: siteConfig.jaMenu,
     author: siteConfig.author
   },
   plugins: [

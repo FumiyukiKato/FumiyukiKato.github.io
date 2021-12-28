@@ -34,6 +34,10 @@ const useSiteMetadata = () => {
               label
               path
             }
+            jaMenu {
+              label
+              path
+            }
             url
             title
             subtitle

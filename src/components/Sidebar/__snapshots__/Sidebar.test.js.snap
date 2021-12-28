@@ -11,7 +11,7 @@ exports[`Sidebar renders correctly 1`] = `
       className="author"
     >
       <a
-        href="/about"
+        href="/"
       >
         <img
           alt="Test name"
@@ -26,7 +26,7 @@ exports[`Sidebar renders correctly 1`] = `
       >
         <a
           className="author__title-link"
-          href="/about"
+          href="/"
         >
           Test name
         </a>

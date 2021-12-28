@@ -1,5 +1,8 @@
 FROM node:alpine
 
+RUN apk update && apk add --no-cache make git python3 autoconf g++ libc6-compat libjpeg-turbo-dev libpng-dev nasm libtool automake vips-dev
+
+ENV NODE_OPTIONS="--openssl-legacy-provider"
 EXPOSE 8000
 
 VOLUME /usr/src/app

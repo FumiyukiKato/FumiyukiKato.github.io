@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://fumiyukikato.github.io/',
   pathPrefix: '/',
   title: 'Fumiyuki Kato',
-  subtitle: 'My daily log...',
+  subtitle: "Official page",
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -13,31 +13,45 @@ module.exports = {
   menu: [
     {
       label: 'About me',
-      path: '/about'
-    },
-    {
-      label: 'Blog',
-      path: '/'
+      path: '/ryakureki'
     },
     // {
-    //   label: 'Research',
-    //   path: '/research'
-    // }
+    //   label: 'Blog',
+    //   path: '/blog'
+    // },
+    {
+      label: 'Research',
+      path: '/research'
+    }
+  ],
+  jaMenu: [
+    {
+      label: '略歴',
+      path: '/ja/ryakureki'
+    },
+    // {
+    //   label: 'Blog',
+    //   path: '/blog'
+    // },
+    {
+      label: '研究',
+      path: '/ja/research'
+    }
   ],
   author: {
-    name: 'Fumiyuki Kato',
+    name: 'Fumiyuki Kato / 加藤 郁之',
     photo: '/fumilemon.png',
-    bio: 'A PhD student at Kyoto University.',
+    bio: 'PhD student at Kyoto University.',
     contacts: {
       email: 'fumiyuki@db.soc.i.kyoto-u.ac.jp',
       facebook: '',
       telegram: '',
-      twitter: 'fumilmon79',
+      twitter: '',
       github: 'FumiyukiKato',
       rss: '',
       vkontakte: '',
       linkedin: 'fumiyuki-kato-b80957182',
-      instagram: 'katofumi2017',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',

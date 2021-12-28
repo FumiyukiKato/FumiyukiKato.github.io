@@ -9,6 +9,17 @@
     background-clip: padding-box
   }
 
+  &__lang {
+    margin-left: 30px;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+  }
+
+  &__sub_lang {
+    color: gray;
+  }
+
   &__title {
     font-size: $typographic-base-font-size * 1.125;
     font-weight: 600;

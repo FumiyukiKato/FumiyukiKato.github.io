@@ -50,17 +50,50 @@ const createPages = async ({ graphql, actions }) => {
   const { edges } = result.data.allMarkdownRemark;
 
   _.each(edges, (edge) => {
+    console.log("#########################");
+    console.log(edge.node.fields.slug);
     if (_.get(edge, 'node.frontmatter.template') === 'page') {
-      createPage({
-        path: edge.node.fields.slug,
-        component: path.resolve('./src/templates/page-template.js'),
-        context: { slug: edge.node.fields.slug }
-      });
+      if (edge.node.fields.slug == "/home/") {
+        createPage({
+          path: "/",
+          component: path.resolve('./src/templates/page-template.js'),
+          context: { slug: edge.node.fields.slug }
+        });
+      } else {
+        createPage({
+          path: edge.node.fields.slug,
+          component: path.resolve('./src/templates/page-template.js'),
+          context: { slug: edge.node.fields.slug }
+        });
+      }
     } else if (_.get(edge, 'node.frontmatter.template') === 'post') {
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve('./src/templates/post-template.js'),
         context: { slug: edge.node.fields.slug }
+      });
+    } else if (_.get(edge, 'node.frontmatter.template') === 'page-ja') {
+      if (edge.node.fields.slug == "/home.ja/") {
+        console.log("/ja/");
+        createPage({
+          path: "/ja/",
+          component: path.resolve('./src/templates/page-template.js'),
+          context: { slug: edge.node.fields.slug }
+        });
+      } else {
+        console.log("/ja" + edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/"));
+        createPage({
+          path: "/ja" + edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/"),
+          component: path.resolve('./src/templates/page-template.js'),
+          context: { slug: edge.node.fields.slug }
+        });
+      } 
+    } else if (_.get(edge, 'node.frontmatter.template') === 'post-ja') {
+      console.log("/ja" + edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/"));
+      createPage({
+        path: "/ja" + edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/"),
+        component: path.resolve('./src/templates/post-template.js'),
+        context: { slug: edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/") }
       });
     }
   });
