@@ -9,13 +9,13 @@ socialImage: "/fumilemon.png"
 滋賀県大津市出身．  
 アーセナルを応援しています．
 
-### Education
+### 学歴
 - 2021年 4月 - 現在
   - 京都大学大学院情報学研究科社会情報学専攻博士後期課程，[吉川・馬研究室](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start) 所属
   - データ工学におけるプライバシとセキュリティに注目して研究しています． 
   - 指導教員: [曹 洋](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) 先生， [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) 教授
 - 2019年 4月 - 2021年 3月
-  - 京都大学大学院情報学研究科社会情報学専攻博士後期課程 修了
+  - 京都大学大学院情報学研究科社会情報学専攻博士前期課程 修了
   - 修士論文: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. <span style="color: red">(優秀修士論文賞)</span>
   - 指導教員: [曹 洋](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) 先生， [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) 教授
 - 2015年 4月 - 2019年 3月
