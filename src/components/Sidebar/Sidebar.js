@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react';
-import { useLocation } from "@reach/router"
+import { useLocation } from "@reach/router";
 import Author from './Author';
 import Contacts from './Contacts';
 import Copyright from './Copyright';
@@ -15,7 +15,7 @@ type Props = {
 const Sidebar = ({ isIndex }: Props) => {
   const { author, copyright, menu, jaMenu } = useSiteMetadata();
   const location = useLocation();
-  console.log(location.pathname);
+
   const isJapanese = location.pathname.match(/\/ja\/?.*/);
   const adaptiveMenu = isJapanese ? jaMenu: menu;
 

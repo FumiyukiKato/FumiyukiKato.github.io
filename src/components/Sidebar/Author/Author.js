@@ -1,7 +1,7 @@
 // @flow strict
 import React from 'react';
 import { withPrefix, Link } from 'gatsby';
-import { useLocation } from "@reach/router"
+import { useLocation } from "@reach/router";
 import styles from './Author.module.scss';
 
 type Props = {

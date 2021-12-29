@@ -7,6 +7,13 @@ import siteMetadata from '../../jest/__fixtures__/site-metadata';
 import allMarkdownRemark from '../../jest/__fixtures__/all-markdown-remark';
 import type { RenderCallback } from '../types';
 
+jest.mock("@reach/router", () => ({
+  ...jest.requireActual("@reach/router"),
+  useLocation: () => ({
+    pathname: "/"
+  })
+}));
+
 describe('CategoriesListTemplate', () => {
   const props = {
     ...siteMetadata,

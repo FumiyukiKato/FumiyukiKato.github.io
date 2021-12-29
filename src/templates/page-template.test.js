@@ -7,6 +7,13 @@ import siteMetadata from '../../jest/__fixtures__/site-metadata';
 import markdownRemark from '../../jest/__fixtures__/markdown-remark';
 import type { RenderCallback } from '../types';
 
+jest.mock("@reach/router", () => ({
+  ...jest.requireActual("@reach/router"),
+  useLocation: () => ({
+    pathname: "/"
+  })
+}));
+
 describe('PageTemplate', () => {
   const props = {
     data: {

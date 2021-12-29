@@ -6,6 +6,13 @@ import NotFoundTemplate from './not-found-template';
 import siteMetadata from '../../jest/__fixtures__/site-metadata';
 import type { RenderCallback } from '../types';
 
+jest.mock("@reach/router", () => ({
+  ...jest.requireActual("@reach/router"),
+  useLocation: () => ({
+    pathname: "/"
+  })
+}));
+
 describe('NotFoundTemplate', () => {
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(

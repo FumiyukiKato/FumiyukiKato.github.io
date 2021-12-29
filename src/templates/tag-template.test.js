@@ -8,6 +8,13 @@ import allMarkdownRemark from '../../jest/__fixtures__/all-markdown-remark';
 import pageContext from '../../jest/__fixtures__/page-context';
 import type { RenderCallback } from '../types';
 
+jest.mock("@reach/router", () => ({
+  ...jest.requireActual("@reach/router"),
+  useLocation: () => ({
+    pathname: "/"
+  })
+}));
+
 describe('TagTemplate', () => {
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(

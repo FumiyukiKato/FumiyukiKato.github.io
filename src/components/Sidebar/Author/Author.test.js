@@ -3,6 +3,13 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Author from './Author';
 
+jest.mock("@reach/router", () => ({
+  ...jest.requireActual("@reach/router"),
+  useLocation: () => ({
+    pathname: "/"
+  })
+}));
+
 describe('Author', () => {
   const props = {
     author: {
