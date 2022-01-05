@@ -10,7 +10,7 @@ socialImage: "/fumilemon.png"
 ### International Journal
 **PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment**   
 *<u>Fumiyuki Kato</u>, Yang Cao, Yoshikawa Masatoshi*  
-<span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[arxiv](https://arxiv.org/abs/2012.03782)] [[code](https://github.com/ylab-public/PCT)]
+<span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[paper link](https://dl.acm.org/doi/10.1145/3490491)] [[code](https://github.com/ylab-public/PCT)]
 
 ### International conference (Peer-Reviewed)
 **Preventing Manipulation Attack in Local Differential Privacy using Verifiable Randomization Mechanism**  
