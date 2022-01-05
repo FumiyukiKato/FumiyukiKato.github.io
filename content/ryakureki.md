@@ -12,13 +12,13 @@ Arsenal is my life.
 ### Education
 - April 2021 - present
   - PhD student in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Focus on Privacy and Security of data engineering. (supervised by Dr. [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Prof. [Masatochi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+  - Focus on Privacy and Security of data engineering. (supervised by Dr. [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - April 2019 - March 2021
   - M.S. degree in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Master Thesis: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. (supervised by Dr. [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Prof. [Masatochi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+  - Master Thesis: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. (supervised by Dr. [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - April 2015 - March 2019
   - B.S. degree in Engineering. Computer science course of Informatics and Mathematical Science, Faculty of Engineering, Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Bachelor Thesis: Future Prediction based on Web News Articles with Publication Source and Time. (supervised by Prof. [Makoto P. Kato](https://www.mpkato.net/) and Prof. [Masatochi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+  - Bachelor Thesis: Future Prediction based on Web News Articles with Publication Source and Time. (supervised by Prof. [Makoto P. Kato](https://www.mpkato.net/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - March 2015, Graduated from [Zeze high school](http://www.zeze-h.shiga-ec.ed.jp/), Shiga.
 
 

@@ -9,16 +9,16 @@ socialImage: "/fumilemon.png"
 [[DBLP](https://dblp.uni-trier.de/pid/277/5098.html)]
 ### ジャーナル
 **PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment**   
-*<u>Fumiyuki Kato</u>, Yang Cao, Yoshikawa Masatoshi*  
+*<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[arxiv](https://arxiv.org/abs/2012.03782)] [[code](https://github.com/ylab-public/PCT)]
 
 ### 国際会議 (査読有り)
 **Preventing Manipulation Attack in Local Differential Privacy using Verifiable Randomization Mechanism**  
-*<u>Fumiyuki Kato</u>, Yang Cao, Yoshikawa Masatoshi*  
+*<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray">*2021 DBSec*</span> [[paper link](https://link.springer.com/chapter/10.1007/978-3-030-81242-3_3)] [[code](https://github.com/FumiyukiKato/verifiable-ldp)]
 
 **Secure and Efficient Trajectory-Based Contact Tracing using Trusted Hardware**  
-*<u>Fumiyuki Kato</u>, Yang Cao, Yoshikawa Masatoshi*  
+*<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray">*2020 PSBD*</span> [[paper link](https://ieeexplore.ieee.org/document/9378187)] [[code](https://github.com/FumiyukiKato/verifiable-ldp)]
 
 **Blockchain-empowered Contact Tracing for COVID-19 Using Crypto-spatiotemporal Information**  
@@ -37,7 +37,7 @@ socialImage: "/fumilemon.png"
 
 **プライバシ保護深層学習のためのSGX分散処理の提案**  
 *加納 英樹，<u>加藤 郁之</u>，ティブシ メディ，阿部 正幸，曹 洋*  
-SCIS 2020
+<span style="color: gray">*SCIS 2020*</span>
 
 **報道元と報道時期を利用したWeb記事による将来予測**  
 *<u>加藤 郁之</u>, 吉川 正俊, 加藤 誠*  

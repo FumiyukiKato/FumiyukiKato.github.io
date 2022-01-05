@@ -17,7 +17,7 @@ socialImage: "/fumilemon.png"
 <div>
 
 **I'm a PhD student at [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start), [Kyoto University](https://www.i.kyoto-u.ac.jp/en/).**
-**I work on my doctoral studies under the supervision of Doctor [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Professor [Masatochi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html).**
+**I work on my doctoral studies under the supervision of Doctor [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Professor [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html).**
 
 **My research interests are privacy and security enhancing technologies in data engineering, especially in, Differential Privacy, Federated Learning, Trusted Execution Environments.**
 
