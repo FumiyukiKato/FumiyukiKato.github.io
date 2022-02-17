@@ -27,7 +27,7 @@ Arsenal is my life.
 ### Skills
 - Programming
   - Advanced: Python
-  - Basic: C++, Rust, Perl, Scala, Ruby, Java, Javascript, Web application infrastructures, Machine Learning frameworks
+  - Basic: C++, Rust, Perl, Scala, Ruby, Java, Javascript, Web application infrastructures, Machine Learning frameworks (Pytorch)
 - Languages
   - Japanese (Native)
   - English (Basic)
@@ -55,11 +55,11 @@ Arsenal is my life.
 ### Awards
 - DEIM 2021 Student presentation award
 - Master thesis award of social informatics department of Kyoto University (Feb 2021)
-- DEIM 2020 Student presentation award
+- DEIM 2020 Online presentation award
 
 
 ### Academic Services
-- External reviewer: ICDE 2021
+- External reviewer: ICDE 2021, TKDE 2021
 
 ### Fundings
 - (April 2021 - March 2024) Kyoto University AI/Data science Fellowship. [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]

@@ -62,7 +62,7 @@ socialImage: "/fumilemon.png"
 
 
 ### Academic Services
-- 外部査読者: ICDE 2021
+- 外部査読者: ICDE 2021, TKDE 2021
 
 ### Fundings
 - 京都大学 情報・ＡＩ・データ科学博士人材フェローシップ (2021.04-2024.03) [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]

@@ -7,7 +7,7 @@ socialImage: "/fumilemon.png"
 
 <figure class="float-left" style="width: 200px">
 	<img src="/self.jpeg" alt="My profile image">
-	<figcaption>2021年</figcaption>
+	<figcaption>履歴書の写真(2021年)</figcaption>
 </figure>
 <figure class="float-left" style="width: 200px">
 	<img src="/fumilemon.png" alt="My icon image">
