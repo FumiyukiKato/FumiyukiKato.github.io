@@ -4,7 +4,7 @@ template: "page-ja"
 socialImage: "/fumilemon.png"
 ---
 
-**英語のCV [<a href="/kato_cv_en.pdf" download>ダウンロード</a>]**
+**CV(英語) [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]**
 
 滋賀県大津市出身．  
 アーセナルを応援しています．
@@ -56,7 +56,7 @@ socialImage: "/fumilemon.png"
 - [SIGMOD-J 講演 CIKM2020国際会議報告](http://www.sigmodj.org/conf/detail.php?conf_no=75)
 
 ### 受賞
-- 京都大学第16回ICTイノベーション優秀研究賞 (2022年 2月) [<a href="/ICT-innovation-kato-2-18-2022.jpg" download>ポスター</a>]
+- 京都大学第16回ICTイノベーション優秀研究賞 (2022年 2月) [<a href="/ICT-innovation-kato-2-18-2022.jpg" target="_blank" rel="noopener noreferrer">ポスター</a>]
 - DEIM 2021 学生プレゼンテーション賞 (2021年 3月)
 - 社会情報学専攻優秀修士論文賞 (2021年 2月)
 - DEIM 2020 オンラインプレゼンテーション賞 (2020年 2月)

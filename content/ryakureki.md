@@ -4,7 +4,7 @@ template: "page"
 socialImage: "/fumilemon.png"
 ---
 
-**CV [<a href="/kato_cv_en.pdf" download>download</a>]**
+**CV [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]**
 
 I was born in Shiga, Japan.  
 Arsenal is my life. 
@@ -53,7 +53,7 @@ Arsenal is my life.
 - [SIGMOD-J 講演 CIKM2020国際会議報告](http://www.sigmodj.org/conf/detail.php?conf_no=75) -->
 
 ### Awards
-- Excellent Research Award at Kyoto University’s 16th ICT Innovation (Feb 2022) [<a href="/ICT-innovation-kato-2-18-2022.jpg" download>poster</a>]
+- Excellent Research Award at Kyoto University’s 16th ICT Innovation (Feb 2022) [<a href="/ICT-innovation-kato-2-18-2022.jpg" target="_blank" rel="noopener noreferrer">poster</a>]
 - DEIM 2021 Student presentation award (Mar 2021)
 - Master thesis award of social informatics department of Kyoto University (Feb 2021)
 - DEIM 2020 Online presentation award (Mar 2020)
