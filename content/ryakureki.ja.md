@@ -21,7 +21,7 @@ socialImage: "/fumilemon.png"
 - 2015年 4月 - 2019年 3月
   - 京都大学工学部情報学科計算機科学コース 卒業
   - 卒業論文: 報道元と報道時期を利用したWeb記事による将来予測
-  - 指導教員: [加藤 誠](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) 先生， [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) 教授
+  - 指導教員: [加藤 誠](https://www.mpkato.net/) 先生， [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) 教授
 - 2015年 3月 滋賀県大津市 [膳所高等学校](http://www.zeze-h.shiga-ec.ed.jp/) 卒業
 
 
