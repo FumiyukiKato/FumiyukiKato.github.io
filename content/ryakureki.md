@@ -53,9 +53,10 @@ Arsenal is my life.
 - [SIGMOD-J 講演 CIKM2020国際会議報告](http://www.sigmodj.org/conf/detail.php?conf_no=75) -->
 
 ### Awards
-- DEIM 2021 Student presentation award
+- Excellent Research Award at Kyoto University’s 16th ICT Innovation (Feb 2022) [<a href="/ICT-innovation-kato-2-18-2022.jpg" download>poster</a>]
+- DEIM 2021 Student presentation award (Mar 2021)
 - Master thesis award of social informatics department of Kyoto University (Feb 2021)
-- DEIM 2020 Online presentation award
+- DEIM 2020 Online presentation award (Mar 2020)
 
 
 ### Academic Services

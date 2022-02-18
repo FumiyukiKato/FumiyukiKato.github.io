@@ -56,9 +56,10 @@ socialImage: "/fumilemon.png"
 - [SIGMOD-J 講演 CIKM2020国際会議報告](http://www.sigmodj.org/conf/detail.php?conf_no=75)
 
 ### 受賞
-- DEIM 2021 学生プレゼンテーション賞
+- 京都大学第16回ICTイノベーション優秀研究賞 (2022年 2月) [<a href="/ICT-innovation-kato-2-18-2022.jpg" download>ポスター</a>]
+- DEIM 2021 学生プレゼンテーション賞 (2021年 3月)
 - 社会情報学専攻優秀修士論文賞 (2021年 2月)
-- DEIM 2020 オンラインプレゼンテーション賞
+- DEIM 2020 オンラインプレゼンテーション賞 (2020年 2月)
 
 
 ### Academic Services
