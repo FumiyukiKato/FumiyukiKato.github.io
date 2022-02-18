@@ -19,7 +19,7 @@ socialImage: "/fumilemon.png"
 
 **Secure and Efficient Trajectory-Based Contact Tracing using Trusted Hardware**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray">*2020 PSBD@IEEE BigData*</span> [[paper link](https://ieeexplore.ieee.org/document/9378187)] [[code](https://github.com/FumiyukiKato/verifiable-ldp)]
+<span style="color: gray">*2020 PSBD@IEEE BigData*</span> [[paper link](https://ieeexplore.ieee.org/document/9378187)] [[code](https://github.com/FumiyukiKato/verifiable-ldp)] [[code](https://github.com/FumiyukiKato/FL-TEE)]
 
 **Blockchain-empowered Contact Tracing for COVID-19 Using Crypto-spatiotemporal Information**  
 *Zheng Wen, Keping Yu, Xin Qi, Toshio Sato, Yutaka Katsuyama,Takuro Sato, Wataru Kameyama, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa, Min Luo and Jun Hashimoto*  
