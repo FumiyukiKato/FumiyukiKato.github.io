@@ -10,7 +10,7 @@ socialImage: "/fumilemon.png"
 ### ジャーナル
 **PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment**   
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[arxiv](https://arxiv.org/abs/2012.03782)] [[code](https://github.com/ylab-public/PCT)]
+<span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[paper link](https://dl.acm.org/doi/10.1145/3490491)] [[code](https://github.com/ylab-public/PCT)]
 
 ### 国際会議 (査読有り)
 **Preventing Manipulation Attack in Local Differential Privacy using Verifiable Randomization Mechanism**  
@@ -19,7 +19,7 @@ socialImage: "/fumilemon.png"
 
 **Secure and Efficient Trajectory-Based Contact Tracing using Trusted Hardware**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray">*2020 PSBD@IEEE BigData*</span> [[paper link](https://ieeexplore.ieee.org/document/9378187)] [[code](https://github.com/FumiyukiKato/verifiable-ldp)]
+<span style="color: gray">*2020 PSBD@IEEE BigData*</span> [[paper link](https://ieeexplore.ieee.org/document/9378187)]
 
 **Blockchain-empowered Contact Tracing for COVID-19 Using Crypto-spatiotemporal Information**  
 *Zheng Wen, Keping Yu, Xin Qi, Toshio Sato, Yutaka Katsuyama,Takuro Sato, Wataru Kameyama, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa, Min Luo and Jun Hashimoto*  
