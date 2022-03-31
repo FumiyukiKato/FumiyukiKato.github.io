@@ -7,7 +7,7 @@ socialImage: "/fumilemon.png"
 **CV(英語) [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]**
 
 滋賀県大津市出身．  
-アーセナルを応援しています．
+[アーセナル](https://twitter.com/Arsenal)ファン．
 
 ### 学歴
 - 2021年 4月 - 現在
@@ -30,7 +30,7 @@ socialImage: "/fumilemon.png"
 ### スキル
 - プログラミング
   - よく使う: Python
-  - たまに使う，業務で使ったことがある: C++, Rust, Perl, Scala, Ruby, Java, Javascript, Web application infrastructures, Machine Learning frameworks
+  - 業務・研究で使ったことがある: C++, Rust, Perl, Java, Javascript, Web application infrastructures, Machine Learning frameworks
 - 言語
   - 日本語 (ネイティブ)
   - 英語 (基本レベル)
@@ -47,7 +47,7 @@ socialImage: "/fumilemon.png"
 - MLエンジニア (インターン) at *株式会社M3*. (2019年 8月)
   - Webアプリケーションの推薦システムのバックエンドとインフラ構築．主にScalaとKubernetesを使用．
 - ソフトウェアエンジニア (アルバイト) at *MediaMaxJapan Inc*. (2018 7月 - 2019 3月)
-  - 小規模Webアプリケーションの開発．主にサーバサイドKotlinとTypescriptを使用．
+  - Webアプリケーションの開発．主にサーバサイドKotlinとTSを使用．
 - ソフトウェアエンジニア (アルバイト) at *Kiizan Kiizan Inc*. (2018 2月 - 2018 5月)
   - Webアプリケーションの保守．主にRubyを使用．
 

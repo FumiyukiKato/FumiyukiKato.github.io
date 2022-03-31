@@ -19,7 +19,7 @@ socialImage: "/fumilemon.png"
 **京都大学情報学研究科の博士後期課程の学生です．[吉川・馬研究室](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)に所属しています．**
 **[Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/)先生と [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html)教授にご指導頂いて研究しています.**
 
-**データ工学におけるプライバシ・セキュリティ保護技術の研究に関心があります．特に，Differential Privacy, Federated Learning, Trusted Execution Environmentsとかに興味を持っています．**
+**データ工学におけるプライバシ・セキュリティ保護技術の研究に関心があります．特に，Differential Privacy, Federated Learning, Trusted Execution Environmentsを扱っています．**
 
 **サッカー ⚽️ と ビール 🍻 が好きです．**
 

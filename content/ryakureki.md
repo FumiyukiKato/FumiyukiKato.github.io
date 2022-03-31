@@ -7,7 +7,7 @@ socialImage: "/fumilemon.png"
 **CV [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]**
 
 I was born in Shiga, Japan.  
-Arsenal is my life. 
+An [Arsenal](https://twitter.com/Arsenal) fan. 
 
 ### Education
 - April 2021 - present
@@ -27,7 +27,7 @@ Arsenal is my life.
 ### Skills
 - Programming
   - Advanced: Python
-  - Basic: C++, Rust, Perl, Scala, Ruby, Java, Javascript, Web application infrastructures, Machine Learning frameworks (Pytorch)
+  - Basic: C++, Rust, Java, Javascript, Web application infrastructures, Machine Learning frameworks (Pytorch)
 - Languages
   - Japanese (Native)
   - English (Basic)
@@ -36,7 +36,7 @@ Arsenal is my life.
 - Researcher (intern) at *LINE Corporation*. (August 2020 - March 2021)
   - Research privacy enhanced technologies. [[blog post](https://engineering.linecorp.com/ja/blog/differentially-private-data-exploration-for-multidimensional-data/)]
 - Web application engineer (part-time) at *Hatena Inc*. (May 2019 - August 2020)
-  - Developing backend and frontend of large scale web applications mainly using Perl and Javascript.
+  - Developing backend and frontend of large scale web applications mainly using Perl and JS.
 - Software engineer (intern) at *Recruit Co.,Ltd*. (October 2019 - November 2019)
   - Developing backend and frontend large scale web applications mainly using Spring Boot and Java.
 - Data scientist (intern) at *Wantedly Inc*. (September 2019)
@@ -44,7 +44,7 @@ Arsenal is my life.
 - ML engineer (intern) at *M3 Inc*. (August 2019)
   - Developing backend infrastructure of recommendation service of web applications mainly using Scala and Kubernetes.
 - Software engineer (part-time) at *MediaMaxJapan Inc*. (July 2018 - March 2019)
-  - Developing web applications mainly using Kotlin and Typescript. In particular, I was able to experience development that strictly followed DDD.
+  - Developing web applications mainly using Kotlin and TS. In particular, I was able to experience development that strictly followed DDD.
 - Software engineer (part-time) at *Kiizan Kiizan Inc*. (Feburary 2018 - May 2018)
   - Developing web applications mainly using Ruby.
 

@@ -13,6 +13,10 @@ socialImage: "/fumilemon.png"
 <span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[paper link](https://dl.acm.org/doi/10.1145/3490491)] [[code](https://github.com/ylab-public/PCT)]
 
 ### 国際会議 (査読有り)
+**Network Shuffling: Privacy Amplification via Random Walks**  
+*Seng Pei Liew, Tsubasa Takahashi, Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
+<span style="color: gray">*2022 ACM SIGMOD*</span>
+
 **Preventing Manipulation Attack in Local Differential Privacy using Verifiable Randomization Mechanism**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray">*2021 DBSec*</span> [[paper link](https://link.springer.com/chapter/10.1007/978-3-030-81242-3_3)] [[code](https://github.com/FumiyukiKato/verifiable-ldp)]
@@ -23,15 +27,23 @@ socialImage: "/fumilemon.png"
 
 **Blockchain-empowered Contact Tracing for COVID-19 Using Crypto-spatiotemporal Information**  
 *Zheng Wen, Keping Yu, Xin Qi, Toshio Sato, Yutaka Katsuyama,Takuro Sato, Wataru Kameyama, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa, Min Luo and Jun Hashimoto*  
-<span style="color: gray"> *2020 HEALTHCOM*</span> [[paper link](https://ieeexplore.ieee.org/document/9398978)]
+<span style="color: gray"> *2020 IEEE HEALTHCOM*</span> [[paper link](https://ieeexplore.ieee.org/document/9398978)]
 
 ### プレプリント
 **OLIVE: Oblivious and Differentially Private Federated Learning on Trusted Execution Environment**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray"> *2022 arxiv*</span> [[paper link](https://arxiv.org/abs/2202.07165)] [[code](https://github.com/FumiyukiKato/FL-TEE)]
 
+**HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data**  
+*<u>Fumiyuki Kato</u>, Tsubasa Takahashi, Shun Takagi, Yang Cao, Seng Pei Liew, Masatoshi Yoshikawa*  
+<span style="color: gray"> *2022 arxiv*</span> [[paper link](https://arxiv.org/abs/2203.06791)] [[code](https://github.com/FumiyukiKato/HDPView)]
+
 
 ### 国内会議
+**TEEを備えた軌跡ベースのプライバシ保護型接触追跡システムにおける付加情報の利用**  
+*Cao Ruixuan, <u>加藤 郁之</u>, 曹 洋, 吉川 正俊*  
+<span style="color: gray">*2022 DEIM*</span>
+
 **多次元データへのカウントクエリに適した差分プライバシ**  
 *<u>加藤 郁之</u>, 高橋翼, 曹 洋, 吉川 正俊*  
 <span style="color: gray">*2021 DEIM*</span> [[paper link](https://proceedings-of-deim.github.io/DEIM2021/papers/G33-2.pdf)]
