@@ -12,8 +12,8 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'About me',
-      path: '/ryakureki'
+      label: 'Biography',
+      path: '/bio'
     },
     // {
     //   label: 'Blog',
@@ -27,7 +27,7 @@ module.exports = {
   jaMenu: [
     {
       label: '略歴',
-      path: '/ja/ryakureki'
+      path: '/ja/biography'
     },
     // {
     //   label: 'Blog',

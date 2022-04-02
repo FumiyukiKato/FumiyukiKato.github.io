@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Biography"
 template: "page"
 socialImage: "/fumilemon.png"
 ---

@@ -13,8 +13,16 @@ type Props = {
   isIndex: ?boolean
 };
 
+const make_ja_transition_link = (location_pathname) => {
+  if (['/biography', '/research', '/'].includes(location_pathname)) {
+    return <h4> En / <Link to={location_pathname.replace(/(.+)/, "/ja$1")} className={styles['author__sub_lang']}>Ja</Link> </h4>
+  } else {
+    return <h4> En / <Link to={'/ja'} className={styles['author__sub_lang']}>Ja</Link> </h4>
+  }
+}
+
 const Author = ({ author, isIndex }: Props) => {
-  const location = useLocation();
+  const location = useLocation(); // /, /ja, /research etc.
   const isJapanese = location.pathname.match(/\/ja\/?.*/);
   const homePath = isJapanese ? "/ja/": "/";
   return (
@@ -33,7 +41,7 @@ const Author = ({ author, isIndex }: Props) => {
         { isJapanese ? (
           <h4> <Link to={location.pathname.replace(/\/ja\/?(.*)/, "/$1")} className={styles['author__sub_lang']}>En</Link> / Ja </h4>
         ) : (
-          <h4> En / <Link to={location.pathname.replace(/(.+)/, "/ja$1")} className={styles['author__sub_lang']}>Ja</Link> </h4>
+          make_ja_transition_link(location.pathname)
         )}
       </div>
 

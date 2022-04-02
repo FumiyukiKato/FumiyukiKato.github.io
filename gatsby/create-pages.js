@@ -84,13 +84,14 @@ const createPages = async ({ graphql, actions }) => {
           context: { slug: edge.node.fields.slug }
         });
       } 
-    } else if (_.get(edge, 'node.frontmatter.template') === 'post-ja') {
-      createPage({
-        path: "/ja" + edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/"),
-        component: path.resolve('./src/templates/post-template.js'),
-        context: { slug: edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/") }
-      });
-    }
+    } 
+    // else if (_.get(edge, 'node.frontmatter.template') === 'post-ja') {
+    //   createPage({
+    //     path: "/ja" + edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/"),
+    //     component: path.resolve('./src/templates/post-template.js'),
+    //     context: { slug: edge.node.fields.slug.replace(/(.+)\.ja\//, "$1/") }
+    //   });
+    // }
   });
 
   // Feeds

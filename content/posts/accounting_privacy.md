@@ -1,9 +1,9 @@
 ---
 title: Privacy Accounting methods
 date: "2022-04-02T18:46:37.121Z"
-template: "post-ja"
+template: "post"
 draft: false
-slug: "privacy"
+slug: "privacy_accounting"
 category: "privacy"
 tags:
   - "privacy"
@@ -34,7 +34,11 @@ $$\frac{\Pr[\mathcal{A}_i(D)=z_i]}{\Pr[\mathcal{A}_i(D')=z_i]} $$
 
 差分プライバシにおけるプライバシ消費の *合成定理* は，$(\epsilon_i, \delta_i)$-DPを満たす $k$ 個のメカニズムに対しては，$(\sum^k{\epsilon_i}, \sum^k{\delta_i})$-DPを保証する *Sequential Composition* が基本になる．
 これは，それぞのメカニズム $\mathcal{A}_i$ から漏れてしまう識別確率の同時分布
-$$\frac{\prod^k_{i=1}\Pr[\mathcal{A}_i(D)=z_i]}{\prod^k_{i=1}\Pr[\mathcal{A}_i(D')=z_i]} \tag{1}$$
+
+$$
+\frac{\prod^k_{i=1}\Pr[\mathcal{A}_i(D)=z_i]}{\prod^k_{i=1}\Pr[\mathcal{A}_i(D')=z_i]} \tag{1}
+$$
+
 が，*Union Bound* によって上から抑えられることから理解できる．
 基本的に，Union Boundは任意の確率分布に対して成立すると思うけど，かなり大雑把なバウンドしか与えられない．
 
@@ -50,7 +54,9 @@ $$\frac{\prod^k_{i=1}\Pr[\mathcal{A}_i(D)=z_i]}{\prod^k_{i=1}\Pr[\mathcal{A}_i(D
 
 いま，以下のような，*Privacy Loss* $(\mathrm{PL})$ という確率変数を考える．ただし，$\mathcal{A}$ はあるメカニズム．
 
-$$\mathrm{PL} = \log{\cfrac{\Pr[\mathcal{A}(D)=z]}{\Pr[\mathcal{A}(D')=z]}},\;\; \mathrm{w.p.}\; \Pr[\mathcal{A}(D)=z] \tag{2}$$
+$$
+\mathrm{PL} = \log{\cfrac{\Pr[\mathcal{A}(D)=z]}{\Pr[\mathcal{A}(D')=z]}},\;\; \mathrm{w.p.}\; \Pr[\mathcal{A}(D)=z] \tag{2}
+$$
 
 Privacy Lossは(1)のように識別不能性を示しており，$\mathrm{PL} \le \epsilon $ ならば $\mathcal{A}$ は $\epsilon$-DPを満たすと言える．
 ただし，対数をとっているため，同時分布は $\mathrm{PL}$ の和となる．
@@ -61,7 +67,11 @@ Privacy Lossは(1)のように識別不能性を示しており，$\mathrm{PL} \
 例えば，$(\epsilon, 0)$-DPを満たす $k$ 個のメカニズムがあった場合を考える．
 この時，任意の $\epsilon, \delta, \delta' \ge 0$ に対して，$k$ 個の
 メカニズムは，$(\epsilon', k\delta+\delta')$-DPを満たす．ただし 
-$$\epsilon' = \sqrt{2k\ln{1/\delta'}}\epsilon + k\epsilon(e^{\epsilon} - 1) \tag{3}.$$
+
+$$
+\epsilon' = \sqrt{2k\ln{1/\delta'}}\epsilon + k\epsilon(e^{\epsilon} - 1) \tag{3}.
+$$
+
 これは *Advanced composition* として知られ，$k$が結構大きい場合は，普通の合成よりもタイトな境界を与える．
 
 
