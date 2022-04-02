@@ -122,7 +122,7 @@ DP-SGDは差分プライバシを満たしながら，経験的リスク最小�
 
 TODO: 詳しく説明する
 
-<img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant" width="350" height="250">
+<img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant" width="320" height="250">
 
 実は，漸近的な改善はAdvanced compositionと比べて対して大きくないかもしれない．
 具体的には，ガウス分布の分散を$1/\sqrt{\log{(T/\delta)}}$にしただけと見ることができる．($T$は試行回数)
@@ -134,6 +134,7 @@ TODO: 詳しく説明する
 
 # Renyi Differenital Privacy [[3](#cite_rdp)]
 
+TODO: 説明する
 
 ---
 
