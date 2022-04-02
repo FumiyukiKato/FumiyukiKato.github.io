@@ -13,7 +13,7 @@ module.exports = {
   menu: [
     {
       label: 'Biography',
-      path: '/bio'
+      path: '/biography'
     },
     // {
     //   label: 'Blog',
