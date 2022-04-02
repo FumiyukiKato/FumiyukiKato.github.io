@@ -27,7 +27,9 @@ $D, D'$を隣接データベース，$(\epsilon_i, \delta_i)$を$(\epsilon_i, \d
 
 $\mathcal{A}_i$ $(i\in [k])$ から得られた結果 $z_i$ を公開する場合，差分プライバシの保証は，隣接データベースに対する識別確率，つまり，
 
-$$\frac{\Pr[\mathcal{A}_i(D)=z_i]}{\Pr[\mathcal{A}_i(D')=z_i]} $$
+$$
+\frac{\Pr[\mathcal{A}_i(D)=z_i]}{\Pr[\mathcal{A}_i(D')=z_i]} 
+$$
 
 の $i\in [k]$ に対する同時分布によって決まる．
 複数のメカニズムに対する差分プライバシの保証を考えるためには，この分布の振る舞いを観察する必要がある．
@@ -78,7 +80,11 @@ $$
 証明のスケッチとしては，(フォーマルな証明は [[1](#cite_privacybook)] のTh.3.20を参照．)
 
 (1) 確率変数 $\mathcal{A}_i(D)$ と $\mathcal{A}_i(D')$に対して，KL-Divergenceを計算すると，
-$$\int_{-\infty}^{\infty} \Pr[\mathcal{A}_i(D)=z] \log{\cfrac{\Pr[\mathcal{A}_i(D)=z]}{\Pr[\mathcal{A}_i(D')=z]}}dz$$
+
+$$
+\int_{-\infty}^{\infty} \Pr[\mathcal{A}_i(D)=z] \log{\cfrac{\Pr[\mathcal{A}_i(D)=z]}{\Pr[\mathcal{A}_i(D')=z]}}dz
+$$
+
 であり，これは，$\mathrm{PL}_i$ の期待値となる．
 
 (2) $\epsilon$-DPから，$\mathcal{A}_i(D)$ と $\mathcal{A}_i(D')$ の Max Divergnece を経由して，KL-Divergence の上界が $\epsilon(e^{\epsilon} - 1)$であることを示す．すなわち $\mathrm{PL}_i$ の上界を与える．
@@ -88,7 +94,7 @@ $$\int_{-\infty}^{\infty} \Pr[\mathcal{A}_i(D)=z] \log{\cfrac{\Pr[\mathcal{A}_i(
 
 だいたいこのような流れで Privacy Loss 確率変数の和の上界を求めていく．
 Advanced compositionでは，KL-Divergenceの上界の部分や，Azumaの不等式などが全然タイトではないため，まだまだルーズな上界となってしまっていることがなんとなく感じられる．
-これは，確率変数に対する仮定が非常に一般的であるため([Azuma's ineq](https://en.wikipedia.org/wiki/Azuma%27s_inequality) の前提条件はDPのPrivacy Lossではかなり一般的に満たされるはず)に，利用できる性質が乏しいというのが一因であると思われる．
+これは，確率変数に対する仮定が非常に一般的であるため([Azuma's ineq](https://en.wikipedia.org/wiki/Azuma%27s_inequality) の確率変数に対する前提条件は，確率過程の差分がある定数でバウンドされたマルチンゲールであること，であり，DPのPrivacy Lossではほぼほぼ一般的に満たされるはず．)に，利用できる性質が乏しいというのが一因であると思われる．
 したがって，下に紹介する合成方法では，より強く，限定的な仮定に基づいて Privacy Loss を解析することでタイトな上界を示すことができるという構造になっている．
 
 ---
@@ -116,7 +122,7 @@ DP-SGDは差分プライバシを満たしながら，経験的リスク最小�
 
 TODO: 詳しく説明する
 
-<img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant">
+<img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant" width="350" height="250">
 
 実は，漸近的な改善はAdvanced compositionと比べて対して大きくないかもしれない．
 具体的には，ガウス分布の分散を$1/\sqrt{\log{(T/\delta)}}$にしただけと見ることができる．($T$は試行回数)
