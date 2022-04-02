@@ -1,6 +1,6 @@
 ---
-title: Two Privacy Accounting method
-date: "2021-12-28T18:46:37.121Z"
+title: Privacy Accounting methods
+date: "2022-04-02T18:46:37.121Z"
 template: "post-ja"
 draft: false
 slug: "privacy"
