@@ -2,15 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://fumiyukikato.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fumiyukikato.github.io/ja/biography/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fumiyukikato.github.io/biography/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/ja/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/ja/research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fumiyukikato.github.io/ja/ryakureki/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fumiyukikato.github.io/ryakureki/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fumiyukikato.github.io/ja/posts/open</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fumiyukikato.github.io/posts/privacy_accounting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/posts/open</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/tag/greeting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fumiyukikato.github.io/tag/privacy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/category/greeting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fumiyukikato.github.io/category/privacy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/post</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
