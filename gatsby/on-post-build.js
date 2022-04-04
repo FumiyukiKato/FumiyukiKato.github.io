@@ -13,13 +13,13 @@ const onPostBuild = () => {
         fs.writeFileSync(file, $.html());
     });
 
-    const jsonFiles = glob.sync(`public/page-data/**/page-data.json`);
+    const jsonFiles = glob.sync(`public/page-data/posts/**/page-data.json`);
     jsonFiles.forEach((file) => {
         const jsonData = JSON.parse(fs.readFileSync(file).toString());
-        const $ = cheerio.load(jsonData.html);
+        const $ = cheerio.load(jsonData.result.data.markdownRemark.html);
         const pForKatex = $('<p></p>');
         $('.katex-display').wrap(pForKatex);
-        jsonData.html = $.html();
+        jsonData.result.data.markdownRemark.html = $.html();
         fs.writeFileSync(file, JSON.stringify(jsonData));
     });
 }
