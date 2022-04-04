@@ -9,10 +9,11 @@
 <url> <loc>https://fumiyukikato.github.io/ja/research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/posts/privacy_accounting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fumiyukikato.github.io/posts/federated learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/posts/open</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/tag/greeting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fumiyukikato.github.io/tag/privacy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fumiyukikato.github.io/tag/research</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/category/greeting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fumiyukikato.github.io/category/privacy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fumiyukikato.github.io/category/research</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fumiyukikato.github.io/post</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
