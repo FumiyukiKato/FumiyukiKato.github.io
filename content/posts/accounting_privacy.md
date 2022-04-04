@@ -4,9 +4,9 @@ date: "2022-04-02T18:46:37.121Z"
 template: "post"
 draft: false
 slug: "privacy_accounting"
-category: "privacy"
+category: "research"
 tags:
-  - "privacy"
+  - "research"
 description: "Two Privacy Accounting method."
 ---
 
