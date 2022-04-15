@@ -13,6 +13,10 @@ socialImage: "/fumilemon.png"
 <span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[paper link](https://dl.acm.org/doi/10.1145/3490491)] [[code](https://github.com/ylab-public/PCT)]
 
 ### International conference (Peer-Reviewed)
+**HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data**  
+*<u>Fumiyuki Kato</u>, Tsubasa Takahashi, Shun Takagi, Yang Cao, Seng Pei Liew, Masatoshi Yoshikawa*  
+<span style="color: gray"> *2022 VLDB*</span> [[paper link](https://arxiv.org/abs/2203.06791)] [[code](https://github.com/FumiyukiKato/HDPView)]
+
 **Network Shuffling: Privacy Amplification via Random Walks**  
 *Seng Pei Liew, Tsubasa Takahashi, Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray">*2022 ACM SIGMOD*</span>
@@ -35,9 +39,6 @@ socialImage: "/fumilemon.png"
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray"> *2022 arxiv*</span> [[paper link](https://arxiv.org/abs/2202.07165)] [[code](https://github.com/FumiyukiKato/FL-TEE)]
 
-**HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data**  
-*<u>Fumiyuki Kato</u>, Tsubasa Takahashi, Shun Takagi, Yang Cao, Seng Pei Liew, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2022 arxiv*</span> [[paper link](https://arxiv.org/abs/2203.06791)] [[code](https://github.com/FumiyukiKato/HDPView)]
 
 ### Domestic conference
 **TEEを備えた軌跡ベースのプライバシ保護型接触追跡システムにおける付加情報の利用**  
