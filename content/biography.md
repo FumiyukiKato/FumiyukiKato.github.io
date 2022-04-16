@@ -35,6 +35,7 @@ An [Arsenal](https://twitter.com/Arsenal) fan.
 ### Work Experience
 - Researcher (intern) at *LINE Corporation*. (August 2020 - March 2021)
   - Research privacy enhanced technologies. [[blog post](https://engineering.linecorp.com/ja/blog/differentially-private-data-exploration-for-multidimensional-data/)]
+  - The outcome is published at VLDB '22.
 - Web application engineer (part-time) at *Hatena Inc*. (May 2019 - August 2020)
   - Developing backend and frontend of large scale web applications mainly using Perl and JS.
 - Software engineer (intern) at *Recruit Co.,Ltd*. (October 2019 - November 2019)

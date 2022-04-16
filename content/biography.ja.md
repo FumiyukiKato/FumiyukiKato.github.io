@@ -38,6 +38,7 @@ socialImage: "/fumilemon.png"
 ### 実務経験
 - リサーチャー (インターン) at *LINE 株式会社*. (2020年 8月 - 2021年 3月)
   - プライバシ保護型データ解析技術に関する研究. [[blog post](https://engineering.linecorp.com/ja/blog/differentially-private-data-exploration-for-multidimensional-data/)]
+  - 研究成果はVLDB'22にて採択．
 - アプリケーションエンジニア (アルバイト) at *株式会社はてな*. (2019年 5月 - 2020年 8月)
   - 大規模Webアプリケーションの開発．PerlとJSを主に使用．
 - ソフトウェアエンジニア (インターン) at *株式会社リクルート*. (2019年 10月 - 2019年 11月)
