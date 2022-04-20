@@ -20,7 +20,7 @@ socialImage: "/fumilemon.png"
 
 **Network Shuffling: Privacy Amplification via Random Walks**  
 *Seng Pei Liew, Tsubasa Takahashi, Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray">*2022 ACM SIGMOD*</span>
+<span style="color: gray">*2022 ACM SIGMOD*</span> [[paper link](https://arxiv.org/abs/2204.03919)]
 
 **Preventing Manipulation Attack in Local Differential Privacy using Verifiable Randomization Mechanism**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  

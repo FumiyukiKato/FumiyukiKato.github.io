@@ -61,7 +61,7 @@ An [Arsenal](https://twitter.com/Arsenal) fan.
 
 
 ### Academic Services
-- External reviewer: ICDE 2021, TKDE 2021
+- External reviewer: ICDE 2021, TKDE (2021), Knowledge-Based Systems (2022)
 
 ### Fundings
 - (April 2021 - March 2024) Kyoto University AI/Data science Fellowship. [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]

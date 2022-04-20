@@ -24,3 +24,9 @@ socialImage: "/fumilemon.png"
 **I love football ⚽️ and beer 🍻.**
 
 </div>
+
+
+---
+### Recent News
+
+- *(2022/04/16)* Our paper "HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data" is accepted at [VLDB'22](https://vldb.org/2022/) 🎉
