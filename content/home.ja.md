@@ -27,7 +27,9 @@ socialImage: "/fumilemon.png"
 </div>
 
 </div>
+
 ---
+
 ### 最近の話題
 
 - *(2022/04/16)* 主著が[VLDB'22](https://vldb.org/2022/)に採択されました 🎉．
