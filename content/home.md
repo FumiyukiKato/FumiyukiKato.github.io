@@ -4,6 +4,7 @@ template: "page"
 socialImage: "/fumilemon.png"
 ---
 
+<div style="display: inline-block">
 
 <figure class="float-left" style="width: 200px">
 	<img src="/self.jpeg" alt="My profile image">
@@ -25,6 +26,7 @@ socialImage: "/fumilemon.png"
 
 </div>
 
+</div>
 
 ---
 ### Recent News
