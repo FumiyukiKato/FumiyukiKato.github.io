@@ -13,7 +13,7 @@ description: "差分プライバシの合成定理について俯瞰してみる
 差分プライバシの合成定理について俯瞰してみる．
 
 #### 目次
-1. [準備](#index_preliminaries)
+1. [基本的な合成定理](#index_preliminaries)
 1. [Moments Accountant](#index_moments_accountant)
 1. [Renyi Differential Privacy](#index_rdp)
 
@@ -21,35 +21,73 @@ description: "差分プライバシの合成定理について俯瞰してみる
 
 <a id="index_preliminaries"></a>
 
-# 準備
+# 基本的な合成定理
 
-$D, D'$を隣接データベース，$(\epsilon_i, \delta_i)$を$(\epsilon_i, \delta_i)$-DPを満たすメカニズム $\mathcal{A}_i$ のプライバシバジェットとし，$\mathcal{A}_i$ から得られる出力を $z_i$ とする．
 
-$\mathcal{A}_i$ $(i\in [k])$ から得られた結果 $z_i$ を公開する場合，差分プライバシの保証は，隣接データベースに対する識別確率，つまり，
+$D, D'$ を隣接データベース，$(\epsilon_i, \delta_i)$を$(\epsilon_i, \delta_i)$-DPを満たすメカニズム $\mathcal{A}_i$ のプライバシバジェットとし，$\mathcal{A}_i$ から得られる出力を $z_i$ とする．
+差分プライバシでは，２つのデータベース$D, D'$ に対する識別確率は，任意の出力値 $z_i$ $(\in Z)$ に対する出力確率の比の最大値で評価する．すなわち以下．
 
 $$
-\frac{\Pr[\mathcal{A}_i(D)=z_i]}{\Pr[\mathcal{A}_i(D')=z_i]} 
+\mathrm{max}_{z_i\in Z}\;  \left|\frac{\Pr[\mathcal{A}_i(D)=z_i]}{\Pr[\mathcal{A}_i(D')=z_i]}\right|
 $$
 
-の $i\in [k]$ に対する同時分布によって決まる．
+これが任意の$D, D'$ に対して$e^{\epsilon}$で抑えられる場合に$\epsilon$-差分プライバシを満たす．
+
+今，$k$個のメカニズム $\mathcal{A}_i$ $(i\in [k])$ から得られた結果 $\mathbf{z} = (z_1,...,z_k) \in \mathbf{Z}$ を公開する場合，差分プライバシの保証は，隣接データベースに対する識別確率の分布の全ての同時分布によって決まる．
+つまり素朴に考えると，以下が識別確率となる．
+
+$$
+\mathrm{max}_{\mathbf{z}\in \mathbf{Z}}\; \left|\prod^k\frac{\Pr[\mathcal{A}_i(D)=z_i]}{\Pr[\mathcal{A}_i(D')=z_i]} \right| \tag{1}
+$$
+
+
 複数のメカニズムに対する差分プライバシの保証を考えるためには，この分布の振る舞いを観察する必要がある．
 
 差分プライバシにおけるプライバシ消費の *合成定理* は，$(\epsilon_i, \delta_i)$-DPを満たす $k$ 個のメカニズムに対しては，$(\sum^k{\epsilon_i}, \sum^k{\delta_i})$-DPを保証する *Sequential Composition* が基本になる．
-これは，それぞのメカニズム $\mathcal{A}_i$ から漏れてしまう識別確率の同時分布
+これは，それぞのメカニズム $\mathcal{A}_i$ から得られる出力に対する隣接データベースの識別確率(1)が，以下のように上から抑えられることから理解することができる．
 
+
+$\mathcal{A}_1, ... , \mathcal{A}_k$ から出力 $\mathbf{z} = (z_1,...,z_k)$ が$D$から得られる確率$\Pr[D, \mathbf{z}]$について考える．
+$\mathcal{A}_i$を実行する際には，$\mathcal{A}_1, ... , \mathcal{A}_{i-1}$までの出力結果を観測できるため，以下のように書くことができる．
 $$
-\frac{\prod^k_{i=1}\Pr[\mathcal{A}_i(D)=z_i]}{\prod^k_{i=1}\Pr[\mathcal{A}_i(D')=z_i]} \tag{1}
+\Pr[\mathbf{z}, D] = \prod_{i\le k}\Pr[\mathcal{A}_i(D)=z_i|z_1,...,z_{i-1}]
 $$
+$\mathcal{A}_i$ は$(\epsilon, \delta)$-DPを満たすので，以下のような不等式が成立する．
+$$
+\begin{align*}
+\prod_{i\le k}\Pr[\mathcal{A}_i(D)=z_i|z_1,...,z_{i-1}] &\le \prod_{i\le k}{\left(\exp(\epsilon) \times \Pr[\mathcal{A}_i(D')=z_i|z_1,...,z_{i-1}] \right)} + \delta * k
+\\ &= \exp(\epsilon k) \Pr[\mathbf{z}, D'] + \delta * k
+\end{align*}
+$$
+1行目は，$\mathcal{A}_i$が$(\epsilon, \delta)$-DPを満たすため，と，各$i$の$\Pr[\mathcal{A}_i(D)=z_i|z_1,...,z_{i-1}]$は確率であるため，少なくとも1で上から抑えることができる．
+分かりにくいので，これをちょっと説明する．
+$\Pr[\mathcal{A}_i(D)=z_i|z_1,...,z_{i-1}] = P(i)$，$\Pr[\mathcal{A}_i(D')=z_i|z_1,...,z_{i-1}] = P'(i)$とおくと，以下が成立する．
+$$
+\begin{align*}
+P(i) &\le (\exp(\epsilon) \times P'(i)+ \delta) \land 1 
+\\ &\le (\exp(\epsilon) \times P'(i) ) \land 1 + \delta
+\end{align*}
+$$
+また，全ての$i$に対する，$\mathcal{A}_i$と$\mathcal{A}_{i+1}$の関係として，以下が成立．(不等式の順番が大事そうなのでめちゃめちゃ細かく書いている.)
+$$
+\begin{align*}
+P(i)P(i+1) &\le (\left\{\exp(\epsilon) \times P'(i)\land 1\right\}  + \delta) \times P(i+1)
+\\ &\le \left\{\exp(\epsilon) \times P'(i)\land 1 \right\} \times P(i+1) + \delta
+\\ &\le \left\{\exp(\epsilon) \times P'(i)\land 1 \right\} \times \left\{\exp(\epsilon) \times P'(i+1) + \delta \right\} + \delta
+\\ &\le \left\{\exp(\epsilon) \times P'(i)\land 1 \right\} \times (\exp(\epsilon) \times P'(i+1))
+\\ &\quad + \left\{\exp(\epsilon) \times P'(i)) \land 1\right\} \times \delta + \delta
+\\ &\le \exp(2\epsilon)P'(i)P'(i+1) + 2\delta
+\end{align*}
+$$
+これを適用していくことで，上の $\delta * k$ のところが成立する．
+何はともあれ，$\Pr[\mathbf{z}, D']$は隣接データベースに対するメカニズムの出力の同時分布になっていて，最初の不等式は差分プライバシの定義通りになっていることが分かる．
 
-が，*Union Bound* によって上から抑えられることから理解できる．
-基本的に，Union Boundは任意の確率分布に対して成立すると思うけど，かなり大雑把なバウンドしか与えられない．
+ちなみにこの証明を見ると，タイトさよりも直感的な形式にすることを優先して，$(\sum^k{\epsilon_i}, \sum^k{\delta_i})$-DPという形に無理矢理合わせるような証明になっていて，結構気持ち悪い感じはする．
 
-プライバシ消費の合成は，いかにこの同時分布から起こる識別確率を下げるか，という作業に帰着する．
-差分プライバシでは任意の攻撃を仮定するので，当然，その上界を調べることになる．
+プライバシ消費の合成は，いかにメカニズムの出力の同時分布の比の最大値，つまり識別確率，を小さくするか，という作業に帰着する．
 技術的(数学的)には，独立な確率分布の積や和をいかにタイトに上から抑えられるか，とも言える．
-つまり，これらの研究の一般的な方法論としては，DPを満たす(もしくはなんらかのランダムネスを持つ)メカニズムに基づく識別可能性を確率変数とし，その確率変数の満たすいろいろな性質(e.g., 独立性，期待値のバウンド，サブガウシアン etc.)を用いて，できるだけタイトな上界を示す，という流れとなる．
+したがって，これらの研究の一般的な方法論としては，DPを満たす(もしくはなんらかのランダムネスを持つ)メカニズムに基づく識別可能性を確率変数とし((1)の絶対値の中身のようなもの)，その確率変数の満たすいろいろな性質(e.g., 独立性，期待値のバウンド，期待値のサブガウシアン性 etc.)を用いて，できるだけタイトな上界を示す，という流れとなる．
 メカニズムや様々な設定(e.g., ノイズの分布，kの数 etc.)によって，いろんな合成が有効だったりして，いまのところ，全てにこれを使っておけば良い，というようなものは存在しない，という認識．
-ただし，メカニズムとほぼセットなので(証明を含むため)，いろんな合成を試す必要がある場面というのは，ほぼないと思われる．
 
 
 実際に，Sequntial Composition と比較してもっと賢く(タイトに)同時分布を見積もることができる方法を１つ見てみる．
@@ -91,11 +129,25 @@ $$
 
 (3) Azumaの不等式を用いて，$\mathrm{PL}_i$の和に対する上界を与える．$\Pr\left[\sum{\mathrm{PL}_i} > \epsilon'\right] < \delta' $ に帰着するように適当なパラメータを選ぶ．と (3) の結果が得られる．
 
+[[1](#cite_privacybook)]のTh.3.3のAzumaの不等式は[wikipedia](https://en.wikipedia.org/wiki/Azuma%27s_inequality)にある普通の形とちょっと違う．
+$E[f]=X_0$,...,$E[f|x_1,...,x_{i}] = X_i$,...,$E[f|x_1,...,x_{k}] = X_k = f(x_1,...,x_k)$のように見るとにある通常のAzumaの不等式に対応させられる．
+$X_i$は，i番目のデータまで($x_1,...,x_i$)が観測されて，残りのデータ($x_{i+1},...,x_k$)に対してのある関数fの期待値を表す．
+
 
 だいたいこのような流れで Privacy Loss 確率変数の和の上界を求めていく．
-Advanced compositionでは，KL-Divergenceの上界の部分や，Azumaの不等式などが全然タイトではないため，まだまだルーズな上界となってしまっていることがなんとなく感じられる．
-これは，確率変数に対する仮定が非常に一般的であるため([Azuma's ineq](https://en.wikipedia.org/wiki/Azuma%27s_inequality) の確率変数に対する前提条件は，確率過程の差分がある定数でバウンドされたマルチンゲールであること，であり，DPのPrivacy Lossではほぼほぼ一般的に満たされるはず．)に，利用できる性質が乏しいというのが一因であると思われる．
+Advanced compositionでは，KL-Divergenceの上界の部分や，Azumaの不等式などがタイトではないため，まだまだルーズな上界となってしまっていることがなんとなく感じられる．
+これは，確率変数に対する仮定が非常に一般的であるために，利用できる性質が乏しいというのが一因であると思われる．
+Azumaの不等式の確率変数に対する前提条件は，確率過程内の連続する確率変数の差分がある定数でバウンドされたマルチンゲールであること，であり，DPのPrivacy Lossではほぼほぼ一般的に満たされるはず．
 したがって，下に紹介する合成方法では，より強く，限定的な仮定に基づいて Privacy Loss を解析することでタイトな上界を示すことができるという構造になっている．
+
+
+*adaptive* という性質について説明しておく．
+*adaptive* なk個のメカニズム$\mathcal{A}_i$ $(i \in [k])$とは，基本的には，$\mathcal{A}_i$は，$\mathcal{A}_1$から$\mathcal{A}_{i-1}$の出力結果($z_1,...,z_{i-1}$)を見てから出力されるという性質を言う．
+これは，$\mathcal{A}_{i}=\mathcal{A}_{i}(z_1,...,z_{i-1}, x_i)$としてモデル化される．
+基本的に，$\mathcal{A}_{i}(z_1,...,z_{i-1}, x_i) = \mathcal{A}_{i}(x_i)$が成立する場合は，Privacy Loss 確率変数は，adaptiveな場合もそうでない場合も同じ分布に従うことになる．
+
+TODO: privacy filter系の内容について書く．
+
 
 ---
 
@@ -104,29 +156,142 @@ Advanced compositionでは，KL-Divergenceの上界の部分や，Azumaの不等
 # Moments Accountant [[2](#cite_ma)]
 
 [[2](#cite_ma)] は非常に人気のある研究で，Moments Accountantと呼ばれる合成方法を用いた *DP-SGD* というとても有名なアルゴリズムを提案している．
-DP-SGDは差分プライバシを満たしながら，経験的リスク最小化問題を解くためのフレームワークであり，SGDによって得られた統計量 (i.e., モデル) が勝手に差分プライバシを満たすという非常に便利な代物である．
+DP-SGDは差分プライバシを満たしながら，経験的リスク最小化問題を解くためのフレームワークであり，SGDに従う最適化によって得られた統計量 (i.e., モデル) が勝手に差分プライバシを満たすという非常に便利なアルゴリズムである．
 
-アルゴリズムはとても単純で，SGDの各微分ステップで得られた勾配にランダムノイズを乗せる．
+<img src="/post-img/accounting_privacy/dp-sgd.png" alt="DP-SGD overview" width="320" height="250">
+
+アルゴリズムはとても単純で，SGDの微分ステップで得られた勾配にランダムノイズを乗せる．
 そのノイズが乗った勾配を用いてモデルの更新を行う．
+これは，勾配が元データに対するクエリとして考えると，一般的なDPのコンテキストとして理解しやすい．
+DP-SGDでは，$L$をグループサイズ，$N$をデータの数として，$q=L/N$の確率で各データを独立にサンプリングする．
+勾配はグループ内で合計値に対してノイズが加算され，グループ内で平均化される．
+
+
 ランダムノイズは基本的にガウス分布からサンプリングされる．
-ガウス分布のパラメータを決定するためには，プライバシバジェット $(\epsilon, \delta)$ に加えて，勾配ベクトルの *sensitivity* を決定すればよい．
+ガウス分布のパラメータを決定するためには，プライバシバジェット $(\epsilon, \delta)$ に加えて，公開される勾配の *sensitivity* を決定すればよい．
 勾配の *L2-sensitivity* を有限にするために，勾配のL2ノルムが定数になるように数値をカットして丸め込む．
 これを *gradient clipping* と呼ぶ．
-そうすることで，任意のDPを満たすランダムノイズ生成するガウス分布を決定することができるようになる．
+そうすることで，特定のDPを満たすガウス分布を決定することができるようになる．
+*gradident clipping*もランダムノイズの付加も，機械学習の文脈では，オーバーフィッティングを防ぐために結構研究されてきて，ある程度の精度も見込まれるので，そのことからもDP-SGDが使い勝手の良いものであることがうかがえる．
 
-ただし，ここはこの論文の重要な貢献ではなく，次の合成が重要である．
-なぜなら，SGD ではイテレーションが重要であり，メカニズムを適用する回数が非常に多くなる可能性がある．
-よってSequential Compositionで考えると，必要なプライバシバジェットが極端に多くなってしまう可能性があり，結果として差分プライバシの満たすプライバシ性はほとんどなくなってしまうかもしれない．
 
-ここでの合成のキーアイデアは，サンプリングと Privacy Loss の確率変数の性質としてモーメント母関数を利用する点である．
+この論文の貢献としては，本質的には，この記事のテーマである合成が重要である．
+なぜなら，SGD では最適化中のイテレーションが重要であるためメカニズムを適用する回数が非常に多くなる可能性がある．
+よってSequential Compositionで考えると，必要なプライバシバジェットが極端に多くなってしまう可能性があり，結果として差分プライバシの満たすプライバシ保証はほとんどなくなってしまうかもしれない．
 
-TODO: 詳しく説明する
+Moments Accountantでの合成のキーアイデアは，サンプリングとガウシアンメカニズムを組み合わせた2ステップに対する Privacy Loss 確率変数の性質としてモーメント母関数を利用する点である．
+
+今，Privacy Lossを以下のように定義する．
+$$
+c(z; \mathcal{A}, \mathrm{aux}, D, D') := \log{\cfrac{\Pr[\mathcal{A}(\mathrm{aux}, D)=z]}{\Pr[\mathcal{A}(\mathrm{aux}, D')=z]}}. \tag{4}
+$$
+$\mathrm{aux}$は *adaptive* なメカニズムのモデル化で，$\mathcal{A}$ より前に実行されたアルゴリズムの出力を表す．
+
+次に，$\mathcal{A}$ に対する，$\lambda$次のモーメント$\alpha_{\mathcal{A}}(\lambda; \mathrm{aux}, D, D')$を$\lambda$をパラメータとするキュムラント母関数として，以下のように定義する．
+$$
+\alpha_{\mathcal{A}}(\lambda; \mathrm{aux}, D, D') := \log{\mathbb{E}_{z\sim \mathcal{A}(\mathrm{aux}, D)}}[\exp(\lambda c(z; \mathcal{A}, \mathrm{aux}, D, D'))]. \tag{5}
+$$
+また，このキュムラント母関数の$\mathrm{aux}, D, D'$に対する最大を，以下のようにしておく．
+$$
+\alpha_{\mathcal{A}}(\lambda) := \max_{\mathrm{aux}, D, D'} \alpha_{\mathcal{A}}(\lambda; \mathrm{aux}, D, D'). \tag{6}
+$$
+この時，以下の２つの定理が成立する．
+
+**Composability**
+$\mathcal{A}$ は，k個のadaptiveなメカニズム$\mathcal{A}_1,...,\mathcal{A}_k$ から成るとする．この時，任意の$\lambda$ に対して，以下が成立する．
+$$
+\alpha_{\mathcal{A}}(\lambda) \le \sum^{k}_{i=1}{\alpha_{\mathcal{A}_i}(\lambda)}
+$$
+これは，$c(z_{1:k}; \mathcal{A}_{1:k}, z_{1:k-1}, D, D') = \sum_{i=1}^k c(z_i; \mathcal{A}_{i}, z_{1:i-1}, D, D')$であることと(5)から明らかである．
+(証明終わり)
+
+**Tail bound**
+任意の$\epsilon > 0$に対して，メカニズム $\mathcal{A}$ は 以下の$\delta$を用いて，$(\epsilon, \delta)$-DPを満たす．
+$$
+\delta = \min_{\lambda}{\exp(\alpha_{\mathcal{A}}(\lambda) - \lambda \epsilon)}
+$$
+こちらの証明は，Chernoffの不等式を利用して証明する．
+プライバシロス確率変数 $c(z)$ と$\epsilon > 0$に対して，以下が成立する．
+$$
+\begin{align*}
+\Pr_{z\sim \mathcal{A}(D)}[c(z)\ge \epsilon] &= \Pr_{z\sim \mathcal{A}(D)}[\exp(\lambda c(z)) \ge \exp(\lambda \epsilon)] \\
+&\le \cfrac{\mathbb{E}_{z\sim \mathcal{A}(D)}[\exp(\lambda c(z))]}{\exp(\lambda \epsilon)} \\
+&\le \exp(\alpha - \lambda \epsilon)
+\end{align*}
+$$
+いま，$B=\{z| c(z) \ge \epsilon\}$とすると，全ての $Z$ に対して，以下が成立する．
+$$
+\begin{align*}
+\Pr[\mathcal{A}(D)\in Z] &= \Pr[\mathcal{A}(D)\in Z \cap B^c] + \Pr[\mathcal{A}(D)\in Z \cap B] \\
+&\le \exp(\epsilon) \Pr[\mathcal{A}(D') \in Z \cap B^c] + \Pr[\mathcal{A}(D) \in B] \\
+&\le \exp(\epsilon) \Pr[\mathcal{A}(D') \in Z \cap B^c] + \exp(\alpha - \lambda \epsilon)
+\end{align*}
+$$
+2行目は，$B$の構成からプライバシロス $c(z)$ が $\epsilon$ より小さいことから．
+(証明終わり)
+
+この2つの定理の意味するところは，1つ目の定理によって，メカニズム $\mathcal{A}$ に対するモーメントを上から抑えて，2つ目の定理によって，対応する$(\epsilon, \delta)$を計算するという流れである．
+ポイントは，プライバシロス確率変数の広がりを，キュムラント母関数上の集中不等式で評価するところである．
+プライバシロス変数を確率過程として，足し合わせたものをバウンドするAdvanced compositionとは，だいぶ方法が異なることがわかる．
+
+残りの部分で重要になるのは，特定のメカニズムに対して，どのようにキュムラント母関数を計算し，上から抑えることができるのかという点である．
+具体的には，DP-SGDで使用されるランダムサンプリング＋ガウシアンメカニズムに対するキュムラント母関数の評価を考えていく．
+
+
+摂動後の勾配の出力分布に対するプライバシロスを考える．
+$D'= D \cup \{x'\}$とする．
+一般性を失わず，$D$に対する勾配の分布を $\mu_0=\mathcal{N}(0, \sigma^2 C^2)$ と書ける．(本来，プライバシロスは多次元ガウス分布の比であるが，ガウシアンメカニズムのガウス分布は全ての次元に等しく広がっているので，一次元で評価してもl2ノルムの最大値は同じであることから一般性は失わない．)
+$D'$に対する勾配の分布は，$\mu_1=\mathcal{N}(C, \sigma^2 C^2)$を用いて $\mu=(1-q)\mu_0 + q\mu_1$ と書ける．
+SGDの勾配計算ステップで，サンプリングされたグループ内に$x'$が含まれない場合は，$D$と$D'$に対する摂動後の勾配の分布は全く同じで $\mu_0$ になる．
+これが起こる確率は，$1-q$である．
+逆に，確率$q$で$x'$が含まれるとき，摂動後の分布は $\mu_1$ となる．
+
+したがって，プライバシロスは，$\log{(\mu_0/\mu)}$，もしくは，$D$ と$D'$を入れ替えて$\log{(\mu/\mu_0)}$と書ける．
+よって，$\alpha(\lambda)$の定義より，以下の$E_1$，$E_2$を用いて，$\alpha(\lambda)=\log{\max{(E_1, E_2)}}$と書ける．
+$$
+\begin{align*}
+E_1 &= \mathbb{E}_{z\sim \mu_0}[(\mu_0(z)/\mu(z))^{\lambda}] 
+\\ &= \mathbb{E}_{z\sim \mu_0}\left[\left(\frac{\mathcal{N}(0, \sigma^2 C^2)}{(1-q)\mathcal{N}(0, \sigma^2 C^2) + q\mathcal{N}(C, \sigma^2 C^2)}\right)^{\lambda}\right]
+\\ E_2 &= \mathbb{E}_{z\sim \mu}[(\mu(z)/\mu_0(z))^{\lambda}] 
+\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right] + q\mathbb{E}_{z\sim \mu_1}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right]
+\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right] + q\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(0, \sigma^2 C^2)}{\mathcal{N}(-C, \sigma^2 C^2)}\right)^{\lambda}\right]
+\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left(1 + q(\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}-1)\right)^{\lambda}\right] + q\mathbb{E}_{z\sim \mu_0}\left[\left(1 + q(\frac{\mathcal{N}(0, \sigma^2 C^2)}{\mathcal{N}(-C, \sigma^2 C^2)}-1)\right)^{\lambda}\right]
+\end{align*}
+$$
+あとはこれを計算すれば良い．
+
+https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py#L315
+このあたりに実際の実装がある．
+証明はできていないようだが，試行してみる限り常に$E2 \ge E1$っぽいようで，$E2$ だけを計算している．
+
+気になる計算は以下の部分で，
+https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py#L341
+ノイズのガウス分布の標準偏差を$\sigma C$としておくことで，clippingのサイズ(l2 norm)の大きさに関わらず，一定の値に評価されることが分かる．
+$$
+\begin{align*}
+\mathbb{E}_{z\sim \mu_0}\left[\left(\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}-1\right)^{\lambda}\right] &= \sum_{i=0}^{\lambda}{\binom{\lambda}{i} (-1)^{t-i} \mathbb{E}_{z\sim \mu_0}\left[\left(\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{i}\right]}
+\\ &= \sum_{i=0}^{\lambda}{\binom{\lambda}{i} (-1)^{t-i} \int_{-\infty}^{\infty}{\exp{\left(\frac{-i}{2\sigma^2C^2}\left((x-C)^2 - x^2\right)\right)\frac{1}{\sigma C\sqrt{2\pi}}\exp{\left(- \frac{x^2}{2 \sigma^2 C^2}\right)}}dx}}
+\\ &= \sum_{i=0}^{\lambda}{\binom{\lambda}{i} (-1)^{t-i} \exp{\left(i(i-1)/2\sigma^2\right)}}
+\end{align*}
+$$
+
+あとは，二項展開などを地道に計算していくことで$E_2$は計算できる．
+
+また，$\alpha(\lambda)$の上界の漸近的な解析も可能である．
+いま，$||f(\cdot)||_2 \le 1$ を満たす関数 $f: D \rightarrow \mathbb{R}^p$ を考え，$\sigma \ge 1$ とし， $J$ を 確率 $q < \frac{1}{16\sigma}$ で 各値を$[n]$ からサンプリングした集合とする．
+任意の正の整数 $\lambda \le \sigma^2 \ln{\frac{1}{q\sigma}}$ に対して，$\mathcal{A}(D) = \sum_{i \in J}{f(x_i)} + \mathcal{N}(0, \sigma^2\mathbf{I})$は，以下を満たす．
+$$
+\alpha_{\mathcal{M}}(\lambda) \le \frac{q^2\lambda (\lambda + 1)}{(1-q)\sigma^2} + O(q^3\lambda^3/\sigma^3)
+$$
+これは，頑張って計算すれば得られるが，証明は省略する．
+
+
+下の図は，Advanced compositionと比べると，たくさんの回数イテレーションしてもmoments accountantの方がタイトな上界を与えることを示している．advanced compositionは+ samplingによって$1/q$になっている．
 
 <img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant" width="320" height="250">
 
-実は，漸近的な改善はAdvanced compositionと比べて対して大きくないかもしれない．
-具体的には，ガウス分布の分散を$1/\sqrt{\log{(T/\delta)}}$にしただけと見ることができる．($T$は試行回数)
-それよりも，SGDにおけるデータのサンプリングが，プライバシのAmplificationに使えるという従来からあったテクニックをうまく取り入れたという点の方が合成の結果に対して貢献度が大きい．
+
+[Moments accountantの実装](https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py)
 
 ---
 
@@ -135,6 +300,9 @@ TODO: 詳しく説明する
 # Renyi Differenital Privacy [[3](#cite_rdp)]
 
 TODO: 説明する
+
+[RDPの実装](https://github.com/google/differential-privacy/blob/main/python/dp_accounting/rdp/rdp_privacy_accountant.py)
+
 
 ---
 
