@@ -55,7 +55,8 @@ $$
 $\mathcal{A}_i$ は$(\epsilon, \delta)$-DPを満たすので，以下のような不等式が成立する．
 $$
 \begin{align*}
-\prod_{i\le k}\Pr[\mathcal{A}_i(D)=z_i|z_1,...,z_{i-1}] &\le \prod_{i\le k}{\left(\exp(\epsilon) \times \Pr[\mathcal{A}_i(D')=z_i|z_1,...,z_{i-1}] \right)} + \delta * k
+\prod_{i\le k}\Pr[&\mathcal{A}_i(D)=z_i|z_1,...,z_{i-1}]
+\\ &\le \prod_{i\le k}{\left(\exp(\epsilon) \times \Pr[\mathcal{A}_i(D')=z_i|z_1,...,z_{i-1}] \right)} + \delta * k
 \\ &= \exp(\epsilon k) \Pr[\mathbf{z}, D'] + \delta * k
 \end{align*}
 $$
@@ -158,7 +159,7 @@ TODO: privacy filter系の内容について書く．
 [[2](#cite_ma)] は非常に人気のある研究で，Moments Accountantと呼ばれる合成方法を用いた *DP-SGD* というとても有名なアルゴリズムを提案している．
 DP-SGDは差分プライバシを満たしながら，経験的リスク最小化問題を解くためのフレームワークであり，SGDに従う最適化によって得られた統計量 (i.e., モデル) が勝手に差分プライバシを満たすという非常に便利なアルゴリズムである．
 
-<img src="/post-img/accounting_privacy/dp-sgd.png" alt="DP-SGD overview" width="320" height="250">
+<img src="/post-img/accounting_privacy/dp-sgd.png" alt="DP-SGD overview" width="100" height="150">
 
 アルゴリズムはとても単純で，SGDの微分ステップで得られた勾配にランダムノイズを乗せる．
 そのノイズが乗った勾配を用いてモデルの更新を行う．
@@ -179,7 +180,7 @@ DP-SGDでは，$L$をグループサイズ，$N$をデータの数として，$q
 なぜなら，SGD では最適化中のイテレーションが重要であるためメカニズムを適用する回数が非常に多くなる可能性がある．
 よってSequential Compositionで考えると，必要なプライバシバジェットが極端に多くなってしまう可能性があり，結果として差分プライバシの満たすプライバシ保証はほとんどなくなってしまうかもしれない．
 
-Moments Accountantでの合成のキーアイデアは，サンプリングとガウシアンメカニズムを組み合わせた2ステップに対する Privacy Loss 確率変数の性質としてモーメント母関数を利用する点である．
+Moments Accountantでの合成のキーアイデアは，サンプリングとGaussian Mechanismを組み合わせた2ステップに対する Privacy Loss 確率変数の性質としてモーメント母関数を利用する点である．
 
 今，Privacy Lossを以下のように定義する．
 $$
@@ -231,16 +232,18 @@ $$
 (証明終わり)
 
 この2つの定理の意味するところは，1つ目の定理によって，メカニズム $\mathcal{A}$ に対するモーメントを上から抑えて，2つ目の定理によって，対応する$(\epsilon, \delta)$を計算するという流れである．
+
 ポイントは，プライバシロス確率変数の広がりを，キュムラント母関数上の集中不等式で評価するところである．
 プライバシロス変数を確率過程として，足し合わせたものをバウンドするAdvanced compositionとは，だいぶ方法が異なることがわかる．
 
 残りの部分で重要になるのは，特定のメカニズムに対して，どのようにキュムラント母関数を計算し，上から抑えることができるのかという点である．
-具体的には，DP-SGDで使用されるランダムサンプリング＋ガウシアンメカニズムに対するキュムラント母関数の評価を考えていく．
+具体的には，DP-SGDで使用されるランダムサンプリング＋Gaussian Mechanismに対するキュムラント母関数の評価を考えていく．
 
 
 摂動後の勾配の出力分布に対するプライバシロスを考える．
+
 $D'= D \cup \{x'\}$とする．
-一般性を失わず，$D$に対する勾配の分布を $\mu_0=\mathcal{N}(0, \sigma^2 C^2)$ と書ける．(本来，プライバシロスは多次元ガウス分布の比であるが，ガウシアンメカニズムのガウス分布は全ての次元に等しく広がっているので，一次元で評価してもl2ノルムの最大値は同じであることから一般性は失わない．)
+一般性を失わず，$D$に対する勾配の分布を $\mu_0=\mathcal{N}(0, \sigma^2 C^2)$ と書ける．(本来，プライバシロスは多次元ガウス分布の比であるが，Gaussian Mechanismのガウス分布は全ての次元に等しく広がっているので，一次元で評価してもL2ノルムの最大値は同じであることから一般性は失わない．)
 $D'$に対する勾配の分布は，$\mu_1=\mathcal{N}(C, \sigma^2 C^2)$を用いて $\mu=(1-q)\mu_0 + q\mu_1$ と書ける．
 SGDの勾配計算ステップで，サンプリングされたグループ内に$x'$が含まれない場合は，$D$と$D'$に対する摂動後の勾配の分布は全く同じで $\mu_0$ になる．
 これが起こる確率は，$1-q$である．
@@ -253,24 +256,29 @@ $$
 E_1 &= \mathbb{E}_{z\sim \mu_0}[(\mu_0(z)/\mu(z))^{\lambda}] 
 \\ &= \mathbb{E}_{z\sim \mu_0}\left[\left(\frac{\mathcal{N}(0, \sigma^2 C^2)}{(1-q)\mathcal{N}(0, \sigma^2 C^2) + q\mathcal{N}(C, \sigma^2 C^2)}\right)^{\lambda}\right]
 \\ E_2 &= \mathbb{E}_{z\sim \mu}[(\mu(z)/\mu_0(z))^{\lambda}] 
-\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right] + q\mathbb{E}_{z\sim \mu_1}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right]
-\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right] + q\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(0, \sigma^2 C^2)}{\mathcal{N}(-C, \sigma^2 C^2)}\right)^{\lambda}\right]
-\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left(1 + q(\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}-1)\right)^{\lambda}\right] + q\mathbb{E}_{z\sim \mu_0}\left[\left(1 + q(\frac{\mathcal{N}(0, \sigma^2 C^2)}{\mathcal{N}(-C, \sigma^2 C^2)}-1)\right)^{\lambda}\right]
+\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right] 
+\\ &\quad \quad + q\mathbb{E}_{z\sim \mu_1}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right]
+\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{\lambda}\right] 
+\\ &\quad \quad + q\mathbb{E}_{z\sim \mu_0}\left[\left((1-q) + q\frac{\mathcal{N}(0, \sigma^2 C^2)}{\mathcal{N}(-C, \sigma^2 C^2)}\right)^{\lambda}\right]
+\\ &= (1-q)\mathbb{E}_{z\sim \mu_0}\left[\left(1 + q(\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}-1)\right)^{\lambda}\right] 
+\\ &\quad \quad + q\mathbb{E}_{z\sim \mu_0}\left[\left(1 + q(\frac{\mathcal{N}(0, \sigma^2 C^2)}{\mathcal{N}(-C, \sigma^2 C^2)}-1)\right)^{\lambda}\right]
 \end{align*}
 $$
 あとはこれを計算すれば良い．
 
-https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py#L315
+
 このあたりに実際の実装がある．
+([参考 - 対応するコード](https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py#L315))
 証明はできていないようだが，試行してみる限り常に$E2 \ge E1$っぽいようで，$E2$ だけを計算している．
 
 気になる計算は以下の部分で，
-https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py#L341
-ノイズのガウス分布の標準偏差を$\sigma C$としておくことで，clippingのサイズ(l2 norm)の大きさに関わらず，一定の値に評価されることが分かる．
+([参考 - 対応するコード](https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py#L341))
+ノイズのガウス分布の標準偏差を$\sigma C$としておくことで，clippingのサイズ(L2 norm)の大きさに関わらず，一定の値に評価されることが分かる．
 $$
 \begin{align*}
 \mathbb{E}_{z\sim \mu_0}\left[\left(\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}-1\right)^{\lambda}\right] &= \sum_{i=0}^{\lambda}{\binom{\lambda}{i} (-1)^{t-i} \mathbb{E}_{z\sim \mu_0}\left[\left(\frac{\mathcal{N}(C, \sigma^2 C^2)}{\mathcal{N}(0, \sigma^2 C^2)}\right)^{i}\right]}
-\\ &= \sum_{i=0}^{\lambda}{\binom{\lambda}{i} (-1)^{t-i} \int_{-\infty}^{\infty}{\exp{\left(\frac{-i}{2\sigma^2C^2}\left((x-C)^2 - x^2\right)\right)\frac{1}{\sigma C\sqrt{2\pi}}\exp{\left(- \frac{x^2}{2 \sigma^2 C^2}\right)}}dx}}
+\\ &= \sum_{i=0}^{\lambda}{\binom{\lambda}{i} (-1)^{t-i} \int_{-\infty}^{\infty}{\exp{\left(\frac{-i}{2\sigma^2C^2}\left((x-C)^2 - x^2\right)\right)}}}
+\\ &\quad \quad \quad \cdot \frac{1}{\sigma C\sqrt{2\pi}}\exp{\left(- \frac{x^2}{2 \sigma^2 C^2}\right)}dx
 \\ &= \sum_{i=0}^{\lambda}{\binom{\lambda}{i} (-1)^{t-i} \exp{\left(i(i-1)/2\sigma^2\right)}}
 \end{align*}
 $$
@@ -278,6 +286,7 @@ $$
 あとは，二項展開などを地道に計算していくことで$E_2$は計算できる．
 
 また，$\alpha(\lambda)$の上界の漸近的な解析も可能である．
+
 いま，$||f(\cdot)||_2 \le 1$ を満たす関数 $f: D \rightarrow \mathcal{R}^p$ を考え，$\sigma \ge 1$ とし， $J$ を 確率 $q < \frac{1}{16\sigma}$ で 各値を$[n]$ からサンプリングした集合とする．
 任意の正の整数 $\lambda \le \sigma^2 \ln{\frac{1}{q\sigma}}$ に対して，$\mathcal{A}(D) = \sum_{i \in J}{f(x_i)} + \mathcal{N}(0, \sigma^2\mathbf{I})$は，以下を満たす．
 $$
@@ -288,7 +297,7 @@ $$
 
 下の図は，Advanced compositionと比べると，たくさんの回数イテレーションしてもmoments accountantの方がタイトな上界を与えることを示している．advanced compositionは+ samplingによって$1/q$になっている．
 
-<img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant" width="320" height="250">
+<img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant" width="250" height="250">
 
 
 [Moments accountantの実装](https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py)
@@ -299,7 +308,15 @@ $$
 
 # Renyi Differenital Privacy [[3](#cite_rdp)]
 
-*Renyi DP* (RDP)は，以下のように定義される．
+*Renyi DP* (RDP)は，確率分布を使わずに差分プライバシを語ることができる面白い手法で，プライバシロスの広がりを*Renyi divergence*上で評価することで強力な合成手法にもなりうる．
+
+実際，多くのライブラリでもデファクトな手法として使われている．
+
+[RDPの実装 - このあたり](https://github.com/google/differential-privacy/blob/75046f9b34cc683a77165794f7b3de9a550edc03/python/dp_accounting/rdp/rdp_privacy_accountant.py#L228)
+
+合成に関しては，基本的にMoments Accountantと同等になるようで，最後の方でそれを確認してみる．
+
+まず導入．
 
 $\mathcal{R}$上の2つの確率分布 $P$ と $Q$ に対して，オーダー $\alpha > 1$の Renyi divergenceはこのように定義される．
 $$
@@ -320,19 +337,21 @@ D_{\infty}(f(D)||f(D')) \le \epsilon.
 $$
 
 ここで $(\alpha, \epsilon)$-RDPを以下のように定義する．
+
 メカニズム $f: D \rightarrow \mathcal{R}$がオーダー $\alpha$ の$\epsilon$-RDPを満たす，つまり$(\alpha, \epsilon)$-RDPを満たすとは，任意の隣接データベース$D, D'$に対して以下を満たすことである．
 $$
 D_{\alpha}(f(D)||f(D')) \le \epsilon
 $$
 
-RDPには，本来のDPと同じく色んな好ましい性質がある．
+<!-- RDPには，本来のDPと同じく色んな好ましい性質がある．
 - 識別不能性
 - 任意の前提知識を持つ攻撃者を仮定
-- ポストプロセッシング定理
+- ポストプロセッシング定理 -->
 
-最も重要な性質は，本記事のテーマである以下のような合成定理である．
+それでは，RDPを用いた合成定理を見ていく．
 
-$f: D\rightarrow \mathcal{R}_1$ を $(\alpha, \epsilon_1)$-RDPとし，$g: \mathcal{R}_1 \times D \rightarrow \mathcal{R}_2$ を $(\alpha, \epsilon_2)$-RDPとする．この時，メカニズム$(f, g)$は，$(\alpha, \epsilon_1 + \epsilon_2)$-RDPを満たす．
+まず，$f: D\rightarrow \mathcal{R}_1$ を $(\alpha, \epsilon_1)$-RDPとし，$g: \mathcal{R}_1 \times D \rightarrow \mathcal{R}_2$ を $(\alpha, \epsilon_2)$-RDPとする．この時，メカニズム$(f, g)$は，$(\alpha, \epsilon_1 + \epsilon_2)$-RDPを満たす，とする．
+
 いま，$h: D \rightarrow \mathcal{R}_1 \times \mathcal{R}_2$を $f$ と $g$ を逐次的に実行する関数とし，$X, Y, Z$ を 確率分布 $f(D)$, $g(X, D)$とその同時分布 $(X, Y)=h(D)$ とする．
 $X', Y', Z'$ は隣接データベースに対する分布として定義する．
 この時，以下のように合成定理が成立する．
@@ -350,14 +369,16 @@ $$
 
 次にRDPと$(\epsilon, \delta)$-DPとの関係を確認する．
 
-$f$が$(\alpha, \epsilon)$-RDPを満たすメカニズムである時，任意の$0 < \delta < 1$に対して，$\left(\epsilon + \cfrac{\log{(1/\delta)}}{\alpha - 1}, \delta\right)$-DPを満たす．(証明略)
+$f$が$(\alpha, \epsilon)$-RDPを満たすメカニズムである時，任意の$0 < \delta < 1$に対して，$\left(\epsilon + \cfrac{\log{(1/\delta)}}{\alpha - 1}, \delta\right)$-DPを満たす．
+これの証明は省略するが，[[3](#cite_rdp)] のProposition.4である．
 
 しかし https://arxiv.org/pdf/2004.00010.pdf prop.12 などでよりタイトな解析が与えられているようである．
+[[3](#cite_rdp)] の証明使われている，ヘルダーの不等式がややルーズっぽい？
 
 残りの関心ごとは，RDPを満たす個々のメカニズムである．
+
 論文ではRandomized Response，Laplace mechanism，Gaussian mechanismが紹介されている．
-L2-sensitivityが1の場合のGaussian Mechanismについて，RDPがどうなるかを見てみる．
-計算はガウス積分を使う．
+L2-sensitivityが1で分散が$\sigma^2$のGaussian Mechanismについて，RDPがどうなるかを見てみる．
 
 $$
 \begin{align*}
@@ -367,22 +388,22 @@ D_{\alpha}(\mathcal{N}(0, \sigma^2)&\,||\,\mathcal{N}(1, \sigma^2))
 \\ &= \alpha / 2\sigma^2
 \end{align*}
 $$
-ガウシアンメカニズムは，$(\alpha, \alpha/2\sigma^2)$-RDPを満たす．
+Gaussian Mechanismは，$(\alpha, \alpha/2\sigma^2)$-RDPを満たす．
 
 RDPのその他の特徴
 - RDPはいかなる，純粋な$\epsilon$-DPを満たさない
 - $\epsilon, \delta$のトレードオフを決定しやすい
 
-[RDPの実装 - このあたり](https://github.com/google/differential-privacy/blob/75046f9b34cc683a77165794f7b3de9a550edc03/python/dp_accounting/rdp/rdp_privacy_accountant.py#L228)
 
 
-RDPとMoments accountantsとの関係をガウシアンメカニズムを用いて眺めてみる．
+RDPとMoments accountantsとの関係をGaussian Mechanismを用いて眺めてみる．
+
 Moments accountantsでサンプリング確率$q=1$として考える．
-L2-sensitivityが1のクエリに対して，分散 $\sigma^2$ をもつガウシアンメカニズムを $k$ 回実行した時に対するトータルの $(\epsilon, \delta)$ をそれぞれの合成方法で計算してみる．
+L2-sensitivityが1のクエリに対して，分散 $\sigma^2$ をもつGaussian Mechanismを $k$ 回実行した時に対するトータルの $(\epsilon, \delta)$ をそれぞれの合成方法で計算してみる．
 
 **RDP**
 
-RDPでは，$k$ 回のガウシアンメカニズムに対して，$(\alpha, k\alpha / 2\sigma^2)$-RDPを満たす．
+RDPでは，$k$ 回のGaussian Mechanismに対して，$(\alpha, k\alpha / 2\sigma^2)$-RDPを満たす．
 これに対して，$\epsilon$ に対応する $\delta$ を計算すると，
 $$
 k\alpha / 2\sigma^2 + \frac{\log(1/\delta)}{\alpha - 1} = \epsilon \\
@@ -394,7 +415,7 @@ $$
 
 **Moments Accountant**
 
-Moments Accountantでは，$k$ 回のガウシアンメカニズムに対するキュムラント母関数 $\alpha(\lambda)$ は，
+Moments Accountantでは，$k$ 回のGaussian Mechanismに対するキュムラント母関数 $\alpha(\lambda)$ は，
 $$
 \begin{align*}
 \alpha(\lambda) &\le k\log{\mathbb{E}_{z\sim \mu_0}[(\mu_1(z)/\mu(z))^{\lambda}]}
@@ -411,9 +432,12 @@ $$
 \\ &= \min_{\lambda}\exp\left((\lambda-1)(k\lambda /2\sigma^2-\epsilon)\right)
 \end{align*}
 $$
+となる．
+
 よってRDPとMoments Accountantは同等であることが分かる．
-これは，このissueの中でも触れられている．
-https://github.com/tensorflow/privacy/issues/85#issuecomment-558437268
+
+これは，この [issue](https://github.com/tensorflow/privacy/issues/85#issuecomment-558437268) の中でも触れられている．
+
 
 
 ---
