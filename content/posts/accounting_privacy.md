@@ -278,7 +278,7 @@ $$
 あとは，二項展開などを地道に計算していくことで$E_2$は計算できる．
 
 また，$\alpha(\lambda)$の上界の漸近的な解析も可能である．
-いま，$||f(\cdot)||_2 \le 1$ を満たす関数 $f: D \rightarrow \mathbb{R}^p$ を考え，$\sigma \ge 1$ とし， $J$ を 確率 $q < \frac{1}{16\sigma}$ で 各値を$[n]$ からサンプリングした集合とする．
+いま，$||f(\cdot)||_2 \le 1$ を満たす関数 $f: D \rightarrow \mathcal{R}^p$ を考え，$\sigma \ge 1$ とし， $J$ を 確率 $q < \frac{1}{16\sigma}$ で 各値を$[n]$ からサンプリングした集合とする．
 任意の正の整数 $\lambda \le \sigma^2 \ln{\frac{1}{q\sigma}}$ に対して，$\mathcal{A}(D) = \sum_{i \in J}{f(x_i)} + \mathcal{N}(0, \sigma^2\mathbf{I})$は，以下を満たす．
 $$
 \alpha_{\mathcal{M}}(\lambda) \le \frac{q^2\lambda (\lambda + 1)}{(1-q)\sigma^2} + O(q^3\lambda^3/\sigma^3)
@@ -299,9 +299,121 @@ $$
 
 # Renyi Differenital Privacy [[3](#cite_rdp)]
 
-TODO: 説明する
+*Renyi DP* (RDP)は，以下のように定義される．
 
-[RDPの実装](https://github.com/google/differential-privacy/blob/main/python/dp_accounting/rdp/rdp_privacy_accountant.py)
+$\mathcal{R}$上の2つの確率分布 $P$ と $Q$ に対して，オーダー $\alpha > 1$の Renyi divergenceはこのように定義される．
+$$
+D_{\alpha}(P||Q) := \frac{1}{\alpha - 1} \log{\mathbb{E}_{x\sim Q}\left(\frac{P(x)}{Q(x)}\right)^{\alpha}}.
+$$
+
+Renyi divergenceは，$\alpha=1$の時，KL-divergenceと一致する．([ロピタルの定理を使った証明．](https://math.stackexchange.com/questions/2094621/proof-that-r%C3%A9nyi-divergence-kl-divergence-when-alpha-rightarrow-1))
+$$
+D_{1}(P||Q) := \mathbb{E}_{x\sim P}\log{\frac{P(x)}{Q(x)}}.
+$$
+$\alpha = \infty$ の時，
+$$
+D_{\infty}(P||Q) := \sup_{x\in support(Q)}\log{\frac{P(x)}{Q(x)}}.
+$$
+よって$\alpha = \infty$ の時は，$\epsilon$-DPとRenyi divergenceとの関係は，以下のようになる．
+$$
+D_{\infty}(f(D)||f(D')) \le \epsilon.
+$$
+
+ここで $(\alpha, \epsilon)$-RDPを以下のように定義する．
+メカニズム $f: D \rightarrow \mathcal{R}$がオーダー $\alpha$ の$\epsilon$-RDPを満たす，つまり$(\alpha, \epsilon)$-RDPを満たすとは，任意の隣接データベース$D, D'$に対して以下を満たすことである．
+$$
+D_{\alpha}(f(D)||f(D')) \le \epsilon
+$$
+
+RDPには，本来のDPと同じく色んな好ましい性質がある．
+- 識別不能性
+- 任意の前提知識を持つ攻撃者を仮定
+- ポストプロセッシング定理
+
+最も重要な性質は，本記事のテーマである以下のような合成定理である．
+
+$f: D\rightarrow \mathcal{R}_1$ を $(\alpha, \epsilon_1)$-RDPとし，$g: \mathcal{R}_1 \times D \rightarrow \mathcal{R}_2$ を $(\alpha, \epsilon_2)$-RDPとする．この時，メカニズム$(f, g)$は，$(\alpha, \epsilon_1 + \epsilon_2)$-RDPを満たす．
+いま，$h: D \rightarrow \mathcal{R}_1 \times \mathcal{R}_2$を $f$ と $g$ を逐次的に実行する関数とし，$X, Y, Z$ を 確率分布 $f(D)$, $g(X, D)$とその同時分布 $(X, Y)=h(D)$ とする．
+$X', Y', Z'$ は隣接データベースに対する分布として定義する．
+この時，以下のように合成定理が成立する．
+$$
+\begin{align*}
+\exp[&(\alpha - 1) D_{\alpha}(h(D)||h(D'))]
+\\ &= \int_{\mathcal{R}_1 \times \mathcal{R}_2}{Z(x, y)^{\alpha}Z'(x, y)^{1-\alpha}dxdy}
+\\ &= \int_{\mathcal{R}_1} \int_{\mathcal{R}_2}{(X(x)Y(x, y))^{\alpha}(X'(x)Y'(x, y))^{1-\alpha}dydx}
+\\ &= \int_{\mathcal{R}_1} X(x)^{\alpha}X'(x)^{1-\alpha} \left\{ \int_{\mathcal{R}_2} (Y(x, y))^{\alpha}(Y'(x, y))^{1-\alpha}dy\right\} dx
+\\ &\le \int_{\mathcal{R}_1} X(x)^{\alpha}X'(x)^{1-\alpha}dx \cdot \exp{((\alpha - 1)\epsilon_2)}
+\\ &\le \exp{((\alpha - 1)\epsilon_1)}\exp{((\alpha - 1)\epsilon_2)}
+\\ &= \exp{((\alpha - 1)(\epsilon_1 + \epsilon_2))}.
+\end{align*}
+$$
+
+次にRDPと$(\epsilon, \delta)$-DPとの関係を確認する．
+
+$f$が$(\alpha, \epsilon)$-RDPを満たすメカニズムである時，任意の$0 < \delta < 1$に対して，$\left(\epsilon + \cfrac{\log{(1/\delta)}}{\alpha - 1}, \delta\right)$-DPを満たす．(証明略)
+
+しかし https://arxiv.org/pdf/2004.00010.pdf prop.12 などでよりタイトな解析が与えられているようである．
+
+残りの関心ごとは，RDPを満たす個々のメカニズムである．
+論文ではRandomized Response，Laplace mechanism，Gaussian mechanismが紹介されている．
+L2-sensitivityが1の場合のGaussian Mechanismについて，RDPがどうなるかを見てみる．
+計算はガウス積分を使う．
+
+$$
+\begin{align*}
+D_{\alpha}(\mathcal{N}(0, \sigma^2)&\,||\,\mathcal{N}(1, \sigma^2))
+\\ &= \frac{1}{\alpha - 1}\log{\int_{-\infty}^{\infty}{\frac{1}{\sigma\sqrt{2\pi}}\exp(-\alpha x^2/2\sigma^2)}}
+\\ &\quad \quad \quad \cdot \exp(-(1-\alpha)(x-1)^2/2\sigma^2)dx
+\\ &= \alpha / 2\sigma^2
+\end{align*}
+$$
+ガウシアンメカニズムは，$(\alpha, \alpha/2\sigma^2)$-RDPを満たす．
+
+RDPのその他の特徴
+- RDPはいかなる，純粋な$\epsilon$-DPを満たさない
+- $\epsilon, \delta$のトレードオフを決定しやすい
+
+[RDPの実装 - このあたり](https://github.com/google/differential-privacy/blob/75046f9b34cc683a77165794f7b3de9a550edc03/python/dp_accounting/rdp/rdp_privacy_accountant.py#L228)
+
+
+RDPとMoments accountantsとの関係をガウシアンメカニズムを用いて眺めてみる．
+Moments accountantsでサンプリング確率$q=1$として考える．
+L2-sensitivityが1のクエリに対して，分散 $\sigma^2$ をもつガウシアンメカニズムを $k$ 回実行した時に対するトータルの $(\epsilon, \delta)$ をそれぞれの合成方法で計算してみる．
+
+**RDP**
+
+RDPでは，$k$ 回のガウシアンメカニズムに対して，$(\alpha, k\alpha / 2\sigma^2)$-RDPを満たす．
+これに対して，$\epsilon$ に対応する $\delta$ を計算すると，
+$$
+k\alpha / 2\sigma^2 + \frac{\log(1/\delta)}{\alpha - 1} = \epsilon \\
+$$
+より，
+$$
+\delta = \exp\left((\alpha - 1)(k\alpha / 2\sigma^2 - \epsilon)\right)
+$$
+
+**Moments Accountant**
+
+Moments Accountantでは，$k$ 回のガウシアンメカニズムに対するキュムラント母関数 $\alpha(\lambda)$ は，
+$$
+\begin{align*}
+\alpha(\lambda) &\le k\log{\mathbb{E}_{z\sim \mu_0}[(\mu_1(z)/\mu(z))^{\lambda}]}
+\\ &= k \log \int \exp\left(-\frac{\lambda}{2\sigma^2}(x^2 - (x-1)^2)\right) 
+\\ & \quad \quad \quad \cdot \frac{1}{\sigma\sqrt{2\pi}}\exp(-\frac{x^2}{2\sigma^2})dx
+\\ &= \frac{k\lambda(\lambda + 1)}{2\sigma^2}
+\end{align*}
+$$
+と評価でき，
+$$
+\begin{align*}
+\delta &= \min_{\lambda}\exp\left(k\lambda(\lambda + 1) /2\sigma^2 - \epsilon \lambda \right)
+\\ &= \min_{\lambda}\exp\left(\lambda(k(\lambda+1) /2\sigma^2-\epsilon)\right)
+\\ &= \min_{\lambda}\exp\left((\lambda-1)(k\lambda /2\sigma^2-\epsilon)\right)
+\end{align*}
+$$
+よってRDPとMoments Accountantは同等であることが分かる．
+これは，このissueの中でも触れられている．
+https://github.com/tensorflow/privacy/issues/85#issuecomment-558437268
 
 
 ---
@@ -317,3 +429,6 @@ TODO: 説明する
 
 <a id="cite_rdp"></a>
 [3] Mironov, Ilya. "Rényi differential privacy." 2017 IEEE 30th computer security foundations symposium (CSF). IEEE, 2017.
+
+<a id="cite_subsample_rdp"></a>
+[4] Wang, Yu-Xiang, el al. "Subsampled rényi differential privacy and analytical moments accountant." The 22nd International Conference on Artificial Intelligence and Statistics. PMLR, 2019.
