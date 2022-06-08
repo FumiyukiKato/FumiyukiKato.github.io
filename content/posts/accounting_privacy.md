@@ -1,13 +1,13 @@
 ---
-title: Privacy Accounting methods
+title: 差分プライバシの合成について
 date: "2022-04-02T18:46:37.121Z"
 template: "post"
-draft: false
+draft: true
 slug: "privacy_accounting"
 category: "research"
 tags:
   - "research"
-description: "差分プライバシの合成定理について俯瞰してみる．"
+description: "差分プライバシの合成定理について俯瞰してみる．Advanced Composition，Moments Accountant，Renyi DP．"
 ---
 
 差分プライバシの合成定理について俯瞰してみる．
@@ -370,7 +370,7 @@ $$
 次にRDPと$(\epsilon, \delta)$-DPとの関係を確認する．
 
 $f$が$(\alpha, \epsilon)$-RDPを満たすメカニズムである時，任意の$0 < \delta < 1$に対して，$\left(\epsilon + \cfrac{\log{(1/\delta)}}{\alpha - 1}, \delta\right)$-DPを満たす．
-これの証明は省略するが，[[3](#cite_rdp)] のProposition.4である．
+これの証明は省略する(ヘルダーの不等式を使う．こここそが重要かも: TODO)が，[[3](#cite_rdp)] のProposition.4である．
 
 しかし https://arxiv.org/pdf/2004.00010.pdf prop.12 などでよりタイトな解析が与えられているようである．
 [[3](#cite_rdp)] の証明使われている，ヘルダーの不等式がややルーズっぽい？
@@ -436,9 +436,8 @@ $$
 
 よってRDPとMoments Accountantは同等であることが分かる．
 
-これは，この [issue](https://github.com/tensorflow/privacy/issues/85#issuecomment-558437268) の中でも触れられている．
 
-
+[[4](#cite_rdp)] では，RDPとサブサンプリングについての解析が研究されている
 
 ---
 
