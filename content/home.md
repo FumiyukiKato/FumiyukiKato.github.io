@@ -30,5 +30,6 @@ socialImage: "/fumilemon.png"
 
 ---
 ### Recent News
-
+- *(2022/08/01)* I started a software engineer internship in Preferred Networks. (till end of September)
 - *(2022/04/16)* Our paper "HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data" is accepted at [VLDB'22](https://vldb.org/2022/) 🎉
+- *(2022/04/01)* Second year in PhD degree starts!
