@@ -12,16 +12,15 @@ socialImage: "/fumilemon.png"
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[paper link](https://dl.acm.org/doi/10.1145/3490491)] [[code](https://github.com/ylab-public/PCT)]
 
+**HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data**  
+*<u>Fumiyuki Kato</u>, Tsubasa Takahashi, Shun Takagi, Yang Cao, Seng Pei Liew, Masatoshi Yoshikawa*  
+<span style="color: gray"> *2022 PVLDB*</span> [[paper link](https://arxiv.org/abs/2203.06791)] [[code](https://github.com/FumiyukiKato/HDPView)]
+
 ### International conference (Peer-Reviewed)
 
 **An Accurate, Flexible and Private Trajectory-based Contact Tracing System**  
 *Ruixuan Cao, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray"> *iiWAS 2022*</span>  
-
-
-**HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data**  
-*<u>Fumiyuki Kato</u>, Tsubasa Takahashi, Shun Takagi, Yang Cao, Seng Pei Liew, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2022 VLDB*</span> [[paper link](https://arxiv.org/abs/2203.06791)] [[code](https://github.com/FumiyukiKato/HDPView)]
 
 **Network Shuffling: Privacy Amplification via Random Walks**  
 *Seng Pei Liew, Tsubasa Takahashi, Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  

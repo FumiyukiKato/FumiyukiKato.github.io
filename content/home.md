@@ -31,7 +31,7 @@ socialImage: "/fumilemon.png"
 ---
 ### Recent News
 
-- *(2022/09)* I was seleted as a JSPS Research Fellow (from April 2023 to March 2025)
+- *(2022/09)* I was seleted as a JSPS Research Fellow (DC2) (from April 2023 to March 2025)
 - *(2022/08/01)* I started a software engineer internship in [Preferred Networks](https://www.preferred.jp/en/). (untill end of September)
 - *(2022/04/16)* Our paper "HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data" is accepted at [VLDB'22](https://vldb.org/2022/) 🎉
 - *(2022/04/01)* Second year in PhD degree starts!
