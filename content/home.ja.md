@@ -31,8 +31,9 @@ socialImage: "/fumilemon.png"
 ---
 
 ### 最近の話題
-
+- *(2022/10)* [Recruit](https://www.recruit.co.jp/)でデータエンジニアインターンを始めました． (11月末まで)
+- *(2022/10)* 共著論文が[IEEE BigData](https://bigdataieee.org/BigData2022/)に採択されました 🎉.
 - *(2022/09)* 日本学術振興会特別研究員(DC2)に採用内定されました．(2023年4月から2025年3月まで)
 - *(2022/08/01)* [Preferred Networks](https://www.preferred.jp/ja/)でソフトウェアエンジニアインターンを始めました．(9月末まで)
-- *(2022/04/16)* 主著が[VLDB'22](https://vldb.org/2022/)に採択されました 🎉．
+- *(2022/04/16)* 主著論文が[VLDB'22](https://vldb.org/2022/)に採択されました 🎉．
 - *(2022/04/01)* D2になりました．
