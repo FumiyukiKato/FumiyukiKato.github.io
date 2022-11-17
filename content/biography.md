@@ -35,7 +35,7 @@ An [Arsenal](https://twitter.com/Arsenal) fan.
 ### Work Experience
 - Data engineer (intern) at *Recruit Co.,Ltd*. (October 2022 - November 2022)
   - Implementing and validating Dynamic AB testing.
-- Software engineer at *Preffered Networks*. (August 2022 - September 2022)
+- Software engineer at *Preferred Networks*. (August 2022 - September 2022)
   - Developing OTA system.
 - Researcher (intern) at *LINE Corporation*. (August 2020 - March 2021)
   - Research privacy enhanced technologies. [[blog post](https://engineering.linecorp.com/ja/blog/differentially-private-data-exploration-for-multidimensional-data/)]
