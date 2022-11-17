@@ -38,7 +38,7 @@ socialImage: "/fumilemon.png"
 ### 実務経験
 - データエンジニア (インターン) at *株式会社リクルート*. (2022年 10月 - 2022年 11月)
   - 動的A/BテストのPoC．
-- ソフトウェアエンジニア (インターン) at *Preffered Networks*. (2022年 8月 - 2022年 9月)
+- ソフトウェアエンジニア (インターン) at *Preferred Networks*. (2022年 8月 - 2022年 9月)
   - OTAシステムの開発検証.
 - リサーチャー (インターン) at *LINE 株式会社*. (2020年 8月 - 2021年 3月)
   - プライバシ保護型データ解析技術に関する研究. [[blog post](https://engineering.linecorp.com/ja/blog/differentially-private-data-exploration-for-multidimensional-data/)]
