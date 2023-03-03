@@ -8,7 +8,7 @@ socialImage: "/fumilemon.png"
 
 <figure class="float-left" style="width: 200px">
 	<img src="/self.jpeg" alt="My profile image">
-	<figcaption>My photo in 2021</figcaption>
+	<figcaption>My selfie in 2021</figcaption>
 </figure>
 <figure class="float-left" style="width: 200px">
 	<img src="/fumilemon.png" alt="My icon image">
@@ -18,7 +18,7 @@ socialImage: "/fumilemon.png"
 <div>
 
 **I'm a PhD student at [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start), [Kyoto University](https://www.i.kyoto-u.ac.jp/en/).**
-**I work on my doctoral studies under the supervision of Doctor [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Professor [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html).**
+**I work on my doctoral studies under the supervision of Professor [Yang Cao](https://yangcao88.github.io/) and Professor [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html).**
 
 **My research interests are privacy and security enhancing technologies in data engineering, especially in, Differential Privacy, Federated Learning, Trusted Execution Environments.**
 
@@ -30,9 +30,7 @@ socialImage: "/fumilemon.png"
 
 ---
 ### Recent News
-- *(2022/10-11)* I started a data engineer internship in [Recruit](https://www.recruit.co.jp/). (untill end of November)
-- *(2022/10)* Our paper "Asymmetric Differential Privacy" is accepted at [IEEE BigData](https://bigdataieee.org/BigData2022/)🎉.
-- *(2022/09)* I was seleted as a JSPS Research Fellow (DC2) (from April 2023 to March 2025)
-- *(2022/08/01)* I started a software engineer internship in [Preferred Networks](https://www.preferred.jp/en/). (untill end of September)
-- *(2022/04/16)* Our paper "HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data" is accepted at [VLDB'22](https://vldb.org/2022/) 🎉
-- *(2022/04/01)* Second year in PhD degree starts!
+- *(2023/04/01)* Third year in PhD degree starts!
+- *(2023/3 - 2023/9)* I started to visit [AIMS Lab](http://www.cs.emory.edu/site/aims/index.html) at Emory University as a visiting scholar. (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/))
+- *(2023/2)* I'm a PhD candidate now!
+- *(2022/12)* I was selected as a Overseas Challenge Program for Young Researchers.

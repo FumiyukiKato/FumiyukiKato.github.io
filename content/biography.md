@@ -7,15 +7,15 @@ socialImage: "/fumilemon.png"
 **CV [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]**
 
 I was born in Shiga, Japan.  
-An [Arsenal](https://twitter.com/Arsenal) fan. 
+[Arsenal](https://twitter.com/Arsenal) fan. 
 
 ### Education
 - April 2021 - present
   - PhD student in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Focus on Privacy and Security of data engineering. (supervised by Dr. [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+  - Focus on Privacy and Security of data engineering. (supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - April 2019 - March 2021
   - M.S. degree in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Master Thesis: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. (supervised by Dr. [Yang Cao](https://www.db.soc.i.kyoto-u.ac.jp/~cao/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+  - Master Thesis: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. (supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - April 2015 - March 2019
   - B.S. degree in Engineering. Computer science course of Informatics and Mathematical Science, Faculty of Engineering, Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
   - Bachelor Thesis: Future Prediction based on Web News Articles with Publication Source and Time. (supervised by Prof. [Makoto P. Kato](https://www.mpkato.net/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
@@ -33,6 +33,8 @@ An [Arsenal](https://twitter.com/Arsenal) fan.
   - English (Basic)
 
 ### Work Experience
+- JSPS student research fellow (DC2) (2023年 4月 - 2025年 3月)
+  - https://www.jsps.go.jp/english/e-pd/index.html
 - Data engineer (intern) at *Recruit Co.,Ltd*. (October 2022 - November 2022)
   - Implementing and validating Dynamic AB testing.
 - Software engineer at *Preferred Networks*. (August 2022 - September 2022)
@@ -65,8 +67,10 @@ An [Arsenal](https://twitter.com/Arsenal) fan.
 
 
 ### Academic Services
-- External reviewer: ICDE 2021, TKDE (2021), Knowledge-Based Systems (2022)
+- External reviewer: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022)
 
 ### Fundings
-- (April 2021 - March 2024) Kyoto University AI/Data science Fellowship. [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]
+- (2023年 4月 - 2025年 3月) JSPS student reseach fellow (DC2)
+- (December 2022) JSPS Overseas Challenge Program for Young Researchers (1,400,000 Yen) [[link]](https://www.jsps.go.jp/english/e-abc/index.html)
+- (April 2021 - March 2024) Kyoto University AI/Data science Fellowship. (2,100,000 Yen / Year) [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]
 -  (March 2021) Exemption from repayment of scholarships of JASSO due to outstanding achievements. (half) [[link](https://www.jasso.go.jp/shogakukin/saiyochu/gyosekimenjo/hyoka.html)]
