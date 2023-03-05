@@ -69,7 +69,7 @@ I was born in Shiga, Japan.
 - External reviewer: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022) -->
 
 ### Fundings
-- (2023年 4月 - 2025年 3月) JSPS student reseach fellow (DC2)
+- (2023年 4月 - 2025年 3月) JSPS student reseach fellow (DC2) (2,400,000 Yen / Year)
 - (December 2022) JSPS Overseas Challenge Program for Young Researchers (1,400,000 Yen) [[link]](https://www.jsps.go.jp/english/e-abc/index.html)
 - (April 2021 - March 2024) Kyoto University AI/Data science Fellowship. (2,100,000 Yen / Year) [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]
 -  (March 2021) Exemption from repayment of scholarships of JASSO due to outstanding achievements. (half) [[link](https://www.jasso.go.jp/shogakukin/saiyochu/gyosekimenjo/hyoka.html)]

@@ -6,7 +6,7 @@ socialImage: "/fumilemon.png"
 
 
 ## Publications
-[[DBLP](https://dblp.uni-trier.de/pid/277/5098.html)]
+[[Google Scholar](https://scholar.google.co.jp/citations?user=FiiWd08AAAAJ&hl=en&oi=ao)]
 ### International Journal
 **PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment**   
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  

@@ -72,7 +72,7 @@ socialImage: "/fumilemon.png"
 - 査読: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022) -->
 
 ### Fundings
-- (2023年 4月 - 2025年 3月) 日本学術振興会 特別研究員DC2 [[link]](https://www.jsps.go.jp/j-abc/)
+- (2023年 4月 - 2025年 3月) 日本学術振興会 特別研究員DC2 240万円 / 年 [[link]](https://www.jsps.go.jp/j-abc/)
 - (2022年 12月) 日本学術振興会 若手研究者海外挑戦プログラム 140万円 [[link]](https://www.jsps.go.jp/j-abc/)
 - (2021年 4月) 京都大学 情報・ＡＩ・データ科学博士人材フェローシップ (2021.04-2023.03) 210万円 / 年 [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]
 - (2021年 3月) JASSO 大学院第一種奨学金 特に優れた業績による返還免除 (半額免除) [[link](https://www.jasso.go.jp/shogakukin/saiyochu/gyosekimenjo/hyoka.html)]
