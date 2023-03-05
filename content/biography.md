@@ -22,37 +22,36 @@ I was born in Shiga, Japan.
 - March 2015, Graduated from [Zeze high school](http://www.zeze-h.shiga-ec.ed.jp/), Shiga.
 
 
-### <u><a href="/research#publications"> Publications </a></u>
-
 ### Skills
 - Programming
   - Advanced: Python
-  - Basic: C++, Rust, Java, Javascript, Web application infrastructures, Machine Learning frameworks (Pytorch)
+  - Basic: C++, Rust, Perl, Kotlin, Java, Javascript(Typescript), Pytorch, GCP, AWS
 - Languages
   - Japanese (Native)
   - English (Basic)
 
 ### Work Experience
-- JSPS student research fellow (DC2) (2023年 4月 - 2025年 3月)
+- Visiting schalor at *Emory University* (April 2023 - September 2023)
+  - Adademic research on Privacy enhancing technology (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
+- JSPS student research fellow (DC2) (April 2023 - March 2025)
   - https://www.jsps.go.jp/english/e-pd/index.html
-- Data engineer (intern) at *Recruit Co.,Ltd*. (October 2022 - November 2022)
+- **(Intern)** Data engineer at *Recruit Co.,Ltd*. (October 2022 - November 2022)
   - Implementing and validating Dynamic AB testing.
-- Software engineer at *Preferred Networks*. (August 2022 - September 2022)
+- **(Intern)** Software engineer at *Preferred Networks*. (August 2022 - September 2022)
   - Developing OTA system.
-- Researcher (intern) at *LINE Corporation*. (August 2020 - March 2021)
+- **(Intern + part-time)** Researcher at *LINE Corporation*. (August 2020 - March 2021)
   - Research privacy enhanced technologies. [[blog post](https://engineering.linecorp.com/ja/blog/differentially-private-data-exploration-for-multidimensional-data/)]
-  - The outcome is published at VLDB '22.
-- Web application engineer (part-time) at *Hatena Inc*. (May 2019 - August 2020)
+- **(Part-time)** Web application engineer at *Hatena Inc*. (May 2019 - August 2020)
   - Developing backend and frontend of large scale web applications mainly using Perl and JS.
-- Software engineer (intern) at *Recruit Co.,Ltd*. (October 2019 - November 2019)
+- **(Intern)** Software engineer at *Recruit Co.,Ltd*. (October 2019 - November 2019)
   - Developing backend and frontend large scale web applications mainly using Spring Boot and Java.
-- Data scientist (intern) at *Wantedly Inc*. (September 2019)
+- **(Intern)** Data scientist at *Wantedly Inc*. (September 2019)
   - Working on proof of concept of a recommendation of a web application using Python and Ruby and BigQuery.
-- ML engineer (intern) at *M3 Inc*. (August 2019)
+- **(Intern)** ML engineer at *M3 Inc*. (August 2019)
   - Developing backend infrastructure of recommendation service of web applications mainly using Scala and Kubernetes.
-- Software engineer (part-time) at *MediaMaxJapan Inc*. (July 2018 - March 2019)
+- **(Part-time)** Software engineer at *MediaMaxJapan Inc*. (July 2018 - March 2019)
   - Developing web applications mainly using Kotlin and TS. In particular, I was able to experience development that strictly followed DDD.
-- Software engineer (part-time) at *Kiizan Kiizan Inc*. (Feburary 2018 - May 2018)
+- **(Intern)** Software engineer at *Kiizan Kiizan Inc*. (Feburary 2018 - May 2018)
   - Developing web applications mainly using Ruby.
 
 <!-- ### Academic activities
@@ -66,8 +65,8 @@ I was born in Shiga, Japan.
 - DEIM 2020 Online presentation award (Mar 2020)
 
 
-### Academic Services
-- External reviewer: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022)
+<!-- ### Academic Services
+- External reviewer: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022) -->
 
 ### Fundings
 - (2023年 4月 - 2025年 3月) JSPS student reseach fellow (DC2)

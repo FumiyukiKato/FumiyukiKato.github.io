@@ -30,7 +30,7 @@ socialImage: "/fumilemon.png"
 
 ---
 ### Recent News
-- *(2023/04/01)* Third year in PhD degree starts!
+- *(2023/04/01)* 3rd year in PhD degree starts!
 - *(2023/3 - 2023/9)* I started to visit [AIMS Lab](http://www.cs.emory.edu/site/aims/index.html) at Emory University as a visiting scholar. (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/))
 - *(2023/2)* I'm a PhD candidate now!
-- *(2022/12)* I was selected as a Overseas Challenge Program for Young Researchers.
+- *(2022/12)* I was selected as a Overseas Challenge Program for Young Researchers from JSPS.

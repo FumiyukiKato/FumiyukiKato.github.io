@@ -25,41 +25,40 @@ socialImage: "/fumilemon.png"
 - 2015年 3月 滋賀県大津市 [膳所高等学校](http://www.zeze-h.shiga-ec.ed.jp/) 卒業
 
 
-### <a href="/ja/research"> 発表論文リスト </a>
-
 ### スキル
 - プログラミング
   - よく使う: Python
-  - 業務・研究で使ったことがある: C++, Rust, Perl, Java, Javascript, Web application infrastructures, Machine Learning frameworks
+  - 業務・研究で使ったことがある: C++, Rust, Perl, Kotlin, Java, Javascript(Typescript), Pytorch, GCP, AWS
 - 言語
   - 日本語 (ネイティブ)
   - 英語 (基本レベル)
 
 ### 実務経験
-- 日本学術振興会特別研究員(DC2) (2023年 4月 - 2025年 3月)
+- 訪問研究者 at *Emory University* (2023年 4月 - 2023年 9月)
+  - プライバシ保護技術に関する学術研究 (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
+- 日本学術振興会特別研究員(DC2) at *JSPS* (2023年 4月 - 2025年 3月)
   - https://www.jsps.go.jp/j-pd/index.html
-- データエンジニア (インターン) at *株式会社リクルート*. (2022年 10月 - 2022年 11月)
+- **(インターン)** データエンジニア at *株式会社リクルート*. (2022年 10月 - 2022年 11月)
   - 動的A/BテストのPoC．
-- ソフトウェアエンジニア (インターン) at *Preferred Networks*. (2022年 8月 - 2022年 9月)
+- **(インターン)** ソフトウェアエンジニア at *Preferred Networks*. (2022年 8月 - 2022年 9月)
   - OTAシステムの開発検証.
-- リサーチャー (インターン) at *LINE 株式会社*. (2020年 8月 - 2021年 3月)
+- **(インターン + アルバイト)** リサーチャー at *LINE 株式会社*. (2020年 8月 - 2021年 3月)
   - プライバシ保護型データ解析技術に関する研究. [[blog post](https://engineering.linecorp.com/ja/blog/differentially-private-data-exploration-for-multidimensional-data/)]
-  - 研究成果はVLDB'22にて採択．
-- アプリケーションエンジニア (アルバイト) at *株式会社はてな*. (2019年 5月 - 2020年 8月)
+- **(アルバイト)** アプリケーションエンジニア at *株式会社はてな*. (2019年 5月 - 2020年 8月)
   - 大規模Webアプリケーションの開発．PerlとJSを主に使用．
-- ソフトウェアエンジニア (インターン) at *株式会社リクルート*. (2019年 10月 - 2019年 11月)
+- **(インターン)** ソフトウェアエンジニア at *株式会社リクルート*. (2019年 10月 - 2019年 11月)
   - 大規模Webアプリケーションの開発．Spring Bootを主に使用．
-- データサイエンティスト (インターン) at *ウォンテッドリー株式会社*. (2019年 9月)
+- **(インターン)** データサイエンティスト at *ウォンテッドリー株式会社*. (2019年 9月)
   - Webアプリケーション内の推薦ロジックのPoC．主にBigQueryとRubyとPythonを使用．
-- MLエンジニア (インターン) at *株式会社M3*. (2019年 8月)
+- **(インターン)** MLエンジニア at *株式会社M3*. (2019年 8月)
   - Webアプリケーションの推薦システムのバックエンドとインフラ構築．主にScalaとKubernetesを使用．
-- ソフトウェアエンジニア (アルバイト) at *MediaMaxJapan Inc*. (2018 7月 - 2019 3月)
+- **(アルバイト)** ソフトウェアエンジニア at *MediaMaxJapan Inc*. (2018 7月 - 2019 3月)
   - Webアプリケーションの開発．主にサーバサイドKotlinとTSを使用．
-- ソフトウェアエンジニア (アルバイト) at *Kiizan Kiizan Inc*. (2018 2月 - 2018 5月)
+- **(アルバイト)** ソフトウェアエンジニア at *Kiizan Kiizan Inc*. (2018 2月 - 2018 5月)
   - Webアプリケーションの保守．主にRubyを使用．
 
 ### 学会活動
-- [日本データベース学会学生企画](https://db-event.jpn.org/dbsj_students/)
+- [日本データベース学会学生企画](https://db-event.jpn.org/dbsj_students/) (2021/04 - 2023/03)
 - [SIGMOD-J 講演 CIKM2020国際会議報告](http://www.sigmodj.org/conf/detail.php?conf_no=75)
 
 ### 受賞
@@ -68,9 +67,9 @@ socialImage: "/fumilemon.png"
 - 社会情報学専攻優秀修士論文賞 (2021年 2月)
 - DEIM 2020 オンラインプレゼンテーション賞 (2020年 2月)
 
-
+<!-- 
 ### Academic Services
-- 査読: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022)
+- 査読: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022) -->
 
 ### Fundings
 - (2023年 4月 - 2025年 3月) 日本学術振興会 特別研究員DC2 [[link]](https://www.jsps.go.jp/j-abc/)
