@@ -21,11 +21,11 @@ socialImage: "/fumilemon.png"
 
 **Asymmetric Differential Privacy**  
 *Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray"> *IEEE BigData 2022*</span>  
+<span style="color: gray"> *2022 IEEE BigData*</span>  
 
 **An Accurate, Flexible and Private Trajectory-based Contact Tracing System**  
 *Ruixuan Cao, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray"> *iiWAS 2022*</span>  
+<span style="color: gray"> *2022 iiWAS*</span>  
 
 
 **Network Shuffling: Privacy Amplification via Random Walks**  

@@ -32,6 +32,6 @@ socialImage: "/fumilemon.png"
 
 ### 最近の話題
 - *(2023/04/01)* D3になりました!!
-- *(2023/3 - 2023/9)* エモリー大学の [AIMS Lab](http://www.cs.emory.edu/site/aims/index.html) に訪問研究者として留学します．(supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/))
-- *(2023/2)* PhD candidateになりました!!
+- *(2023/04 - 2023/10)* エモリー大学の [AIMS Lab](http://www.cs.emory.edu/site/aims/index.html) に訪問研究者として留学します．(supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/))
+- *(2023/02)* PhD candidateになりました!!
 - *(2022/12)* 日本学術振興会 若手研究者海外挑戦プログラムに採択されました．
