@@ -4,7 +4,7 @@ template: "page-ja"
 socialImage: "/fumilemon.png"
 ---
 
-**CV(英語) [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]**
+**CV(英語) [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]** (Last updated on May 16 2023)
 
 滋賀県大津市出身．  
 [アーセナル](https://twitter.com/Arsenal)ファン．

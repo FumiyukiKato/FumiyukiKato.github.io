@@ -4,7 +4,7 @@ template: "page"
 socialImage: "/fumilemon.png"
 ---
 
-**CV [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]**
+**CV [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]** (Last updated on May 16 2023)
 
 I was born in Shiga, Japan.  
 [Arsenal](https://twitter.com/Arsenal) fan. 
