@@ -11,7 +11,7 @@ socialImage: "/fumilemon.png"
 
 ### 学歴
 - 2021年 4月 - 現在
-  - 京都大学大学院情報学研究科社会情報学専攻博士後期課程，[吉川・馬研究室](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start) 所属
+  - 京都大学大学院情報学研究科社会情報学専攻博士後期課程 ([吉川・馬研究室](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start))
   - データ工学におけるプライバシとセキュリティに注目して研究しています． 
   - 指導教員: [曹 洋](https://yangcao88.github.io/) 先生， [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) 教授
 - 2019年 4月 - 2021年 3月
