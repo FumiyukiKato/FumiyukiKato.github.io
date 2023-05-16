@@ -31,7 +31,7 @@ socialImage: "/fumilemon.png"
 ---
 
 ### 最近の話題
-- *(2023/05)* "OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification." が [VLDB 2023](https://vldb.org/2023/) に採択されました 🎉
+- *(2023/05)* 主著論文の"OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification." が [VLDB 2023](https://vldb.org/2023/) に採択されました 🎉
 - *(2023/05)* 共著論文の"From Bounded to Unbounded: Privacy Amplification via Shuffling with Dummies" が [CSF 2023](https://csf2023.ieee-security.org/) に採択されました 🎉
 - *(2023/04/01)* D3になりました．
 - *(2023/04 - 2023/10)* エモリー大学の [AIMS Lab](http://www.cs.emory.edu/site/aims/index.html) に訪問研究者として留学します．(supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/))
