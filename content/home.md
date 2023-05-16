@@ -12,17 +12,17 @@ socialImage: "/fumilemon.png"
 </figure>
 <figure class="float-left" style="width: 200px">
 	<img src="/fumilemon.png" alt="My icon image">
-	<figcaption>My icon written by my friend at <a href="https://tabelog.com/kyoto/A2601/A260302/26019556/" target="_blank" rel="noopener noreferrer">ばちや百万遍</a>.</figcaption>
+	<figcaption>My favorite icon written by my friend at <a href="https://tabelog.com/kyoto/A2601/A260302/26019556/" target="_blank" rel="noopener noreferrer">ばちや百万遍</a>.</figcaption>
 </figure>
 
 <div>
 
 **I'm a PhD student at [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start), [Kyoto University](https://www.i.kyoto-u.ac.jp/en/).**
-**I work on my doctoral studies under the supervision of Professor [Yang Cao](https://yangcao88.github.io/) and Professor [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html).**
+**I work on my doctoral studies under the supervision of Prof. [Yang Cao](https://yangcao88.github.io/), Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) and Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/).**
 
 **My research interests are privacy and security enhancing technologies in data engineering, especially in, Differential Privacy, Federated Learning, Trusted Execution Environments.**
 
-**I love football ⚽️ and beer 🍻.**
+**I love Soccer ⚽️ and Beer 🍻.**
 
 </div>
 

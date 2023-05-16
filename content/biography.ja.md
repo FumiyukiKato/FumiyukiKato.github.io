@@ -35,7 +35,7 @@ socialImage: "/fumilemon.png"
 
 ### 実務経験
 - **(客員研究員)** at *Emory University* (2023年 4月 - 2023年 9月)
-  - プライバシ保護技術に関する学術研究 (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
+  - プライバシ保護型の Federated Learningに関する学術研究 (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
 - **(日本学術振興会特別研究員) (DC2)** at *JSPS* (2023年 4月 - 2025年 3月)
   - プライバシ保護技術に関する学術研究で採用．
 - **(インターン)** データエンジニア at *株式会社リクルート*. (2022年 10月 - 2022年 11月)

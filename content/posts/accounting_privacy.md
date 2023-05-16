@@ -1,16 +1,16 @@
 ---
-title: 差分プライバシの合成について
+title: 差分プライバシの合成の基礎
 date: "2022-04-02T18:46:37.121Z"
 template: "post"
-draft: true
+draft: false
 slug: "privacy_accounting"
 category: "research"
 tags:
   - "research"
-description: "差分プライバシの合成定理について俯瞰してみる．Advanced Composition，Moments Accountant，Renyi DP．"
+description: "差分プライバシの合成定理の基礎．Advanced Composition，Moments Accountant，Renyi DP．"
 ---
 
-差分プライバシの合成定理について俯瞰してみる．
+差分プライバシの合成定理の基礎について振り返る
 
 #### 目次
 1. [基本的な合成定理](#index_preliminaries)
@@ -437,7 +437,7 @@ $$
 よってRDPとMoments Accountantは同等であることが分かる．
 
 
-[[4](#cite_rdp)] では，RDPとサブサンプリングについての解析が研究されている
+[[4](#cite_rdp)] では，RDPとサブサンプリングについての解析が研究されている．これはMoments Accountantよりも厳密にタイト(？)
 
 ---
 

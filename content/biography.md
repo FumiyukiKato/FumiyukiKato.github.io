@@ -32,7 +32,7 @@ I was born in Shiga, Japan.
 
 ### Work Experience
 - **(Visiting schalor)** at *Emory University* (April 2023 - September 2023)
-  - Adademic research on Privacy enhancing technology (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
+  - As a visting PhD student, working on adademic research on private federated learning (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
 - **(JSPS student research fellow (DC2))** (April 2023 - March 2025)
   - Academic research on Privacy enhancing technologies.
 - **(Intern)** Data engineer at *Recruit Co.,Ltd*. (October 2022 - November 2022)
