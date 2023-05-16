@@ -7,7 +7,7 @@ slug: "privacy_accounting"
 category: "research"
 tags:
   - "research"
-description: "差分プライバシの合成定理の基礎．Advanced Composition，Moments Accountant，Renyi DP．"
+description: "差分プライバシの合成定理の基礎．主にAdvanced Composition，Moments Accountant，Renyi DPについて．"
 ---
 
 差分プライバシの合成定理の基礎について振り返る
@@ -159,7 +159,13 @@ TODO: privacy filter系の内容について書く．
 [[2](#cite_ma)] は非常に人気のある研究で，Moments Accountantと呼ばれる合成方法を用いた *DP-SGD* というとても有名なアルゴリズムを提案している．
 DP-SGDは差分プライバシを満たしながら，経験的リスク最小化問題を解くためのフレームワークであり，SGDに従う最適化によって得られた統計量 (i.e., モデル) が勝手に差分プライバシを満たすという非常に便利なアルゴリズムである．
 
-<img src="/post-img/accounting_privacy/dp-sgd.png" alt="DP-SGD overview" width="100" height="150">
+<figure>
+  <img
+  src="/post-img/accounting_privacy/dp-sgd.png"
+  alt="DP-SGD overview">
+  <figcaption>DP-SGDのアルゴリズム</figcaption>
+</figure>
+
 
 アルゴリズムはとても単純で，SGDの微分ステップで得られた勾配にランダムノイズを乗せる．
 そのノイズが乗った勾配を用いてモデルの更新を行う．
@@ -298,6 +304,14 @@ $$
 下の図は，Advanced compositionと比べると，たくさんの回数イテレーションしてもmoments accountantの方がタイトな上界を与えることを示している．advanced compositionは+ samplingによって$1/q$になっている．
 
 <img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant" width="250" height="250">
+
+
+<figure>
+  <img
+  src="/post-img/accounting_privacy/advanced-vs-ma.png"
+  alt="DP-SGD overview">
+  <figcaption>Advanced composition vs moments accountant</figcaption>
+</figure>
 
 
 [Moments accountantの実装](https://github.com/tensorflow/models/blob/31f1af580a21b302ec7bcf7e94be7dd1ffa38eaa/differential_privacy/privacy_accountant/tf/accountant.py)

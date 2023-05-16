@@ -20,6 +20,7 @@ I was born in Shiga, Japan.
   - B.S. degree in Engineering. Computer science course of Informatics and Mathematical Science, Faculty of Engineering, Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
   - Bachelor Thesis: Future Prediction based on Web News Articles with Publication Source and Time. (supervised by Prof. [Makoto P. Kato](https://www.mpkato.net/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - March 2015, Graduated from [Zeze high school](http://www.zeze-h.shiga-ec.ed.jp/), Shiga.
+  - Soccer club
 
 
 ### Skills

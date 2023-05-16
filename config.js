@@ -16,8 +16,8 @@ module.exports = {
       path: '/biography'
     },
     // {
-    //   label: 'Blog',
-    //   path: '/blog'
+    //   label: 'メモ',
+    //   path: '/post'
     // },
     {
       label: 'Research',
@@ -29,14 +29,14 @@ module.exports = {
       label: '略歴',
       path: '/ja/biography'
     },
-    // {
-    //   label: 'Blog',
-    //   path: '/blog'
-    // },
     {
       label: '研究',
       path: '/ja/research'
-    }
+    },
+    {
+      label: 'ノート',
+      path: '/post'
+    },
   ],
   author: {
     name: 'Fumiyuki Kato / 加藤 郁之',
