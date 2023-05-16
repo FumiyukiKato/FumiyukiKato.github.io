@@ -10,7 +10,7 @@ socialImage: "/fumilemon.png"
 [[Google Scholar](https://scholar.google.co.jp/citations?user=FiiWd08AAAAJ&hl=en&oi=ao)]
 
 
-### 国際会議/ジャーナル (査読あり)
+### 国際会議 / ジャーナル
 
 
 **OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification**  

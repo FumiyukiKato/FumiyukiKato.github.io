@@ -8,7 +8,7 @@ socialImage: "/fumilemon.png"
 ## Publications
 [[Google Scholar](https://scholar.google.co.jp/citations?user=FiiWd08AAAAJ&hl=en&oi=ao)]
 
-### International Conference/Journal (Peer-Reviewed)
+### International Conference / Journal
 
 **OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  

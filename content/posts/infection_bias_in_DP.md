@@ -10,6 +10,8 @@ tags:
 description: "Rough survey of differential privacy affecting fairness of ML models and their impact on predictive models of infectious disease."
 ---
 
+I'm going to start with *ML x Fariness* and break down to *DP x Fairness*, *DP-ML x Fairness*, *Infection x ML*, *infection x ML x fairness*, *infection x ML x DP*, *infection x ML x fairness x DP*.
+
 ## ML x Fariness
 - **Equality of Opportunity in Supervised Learning (NIPS’16)**
   - Introducing equalized odds instead of demographic parity as fairness definition. Proposing post-processing-based method. Sensitive label information is needed at the time of forecasting to adjust the predicted results.
@@ -57,7 +59,7 @@ description: "Rough survey of differential privacy affecting fairness of ML mode
   - Analyze fairness under the problem setting in the long-tail distribution. The analysis showed that if fairness is to be strictly maintained under (ε,δ)-DP, it is necessary to sacrifice accuracy.
 
 
-## infection x ML
+## Infection x ML
 - Prediction model baseline (SOTA?)
   - **A prospective evaluation of AI-augmented epidemiology to forecast COVID-19 in the USA and Japan (npjDM’21)**
     - Proposing and evaluating infection predition model, taking differnet static and dynamic features as input and output the number infecitons, cumulative deaths and confirmed cases for each locations (such as states). The rather large, complex proposed model is evaluated on real-world data on a practical scale. All of the results look very reliable.
@@ -81,7 +83,7 @@ description: "Rough survey of differential privacy affecting fairness of ML mode
     - **Deep learning for visual analytics of the spread of COVID-19 infection in crowded urban environments.  (2021).**
 
 
-### infection x ML x fairness 
+## infection x ML x fairness 
 (not limited to monitoring, including other healthcare topics. few papers in CS community)
 - **Bias at warp speed: How AI may contribute to disparities gap in the time of COVID-19 (JAMIA'21)**
   - General opinion, just claiming the necessity of ML fairness
@@ -105,13 +107,13 @@ description: "Rough survey of differential privacy affecting fairness of ML mode
 - **Biases in human mobility data impact epidemic modeling (arxiv'21)**
 - [**GitHub - datasets/covid-19: Novel Coronavirus 2019 time series data on cases**](https://github.com/datasets/covid-19)
 
-### infection x ML x DP
+## infection x ML x DP
 
 - Helthcare area (not focusing on "infection")
   - **Chasing Your Long Tails: Differentially Private Prediction in Health Care Settings (FAccT'21)**
     - Applying DP to ML with actual medical data does not give very good performance. The increase in unfairness has not been outstandlingly confirmed in this paper.
 
-### infection x ML x fairness x DP
+## infection x ML x fairness x DP
 
 - Looks no work so far
 
