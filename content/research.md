@@ -7,28 +7,36 @@ socialImage: "/fumilemon.png"
 
 ## Publications
 [[Google Scholar](https://scholar.google.co.jp/citations?user=FiiWd08AAAAJ&hl=en&oi=ao)]
-### International Journal
-**PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment**   
+
+### International Conference/Journal (Peer-Reviewed)
+
+**OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[paper link](https://dl.acm.org/doi/10.1145/3490491)] [[code](https://github.com/ylab-public/PCT)]
+<span style="color: gray">*2023 VLDB*</span> [[paper link](https://arxiv.org/abs/2202.07165)] [[code](https://github.com/FumiyukiKato/FL-TEE)]
 
-**HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data**  
-*<u>Fumiyuki Kato</u>, Tsubasa Takahashi, Shun Takagi, Yang Cao, Seng Pei Liew, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2022 PVLDB*</span> [[paper link](https://arxiv.org/abs/2203.06791)] [[code](https://github.com/FumiyukiKato/HDPView)]
-
-### International conference (Peer-Reviewed)
+**From Bounded to Unbounded: Privacy Amplification via Shuffling with Dummies**  
+*Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
+<span style="color: gray"> *2023 IEEE CSF*</span>  
 
 **Asymmetric Differential Privacy**  
 *Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2022 IEEE BigData*</span>  
+<span style="color: gray"> *2022 IEEE BigData*</span> [[paper link](https://arxiv.org/pdf/2103.00996.pdf)]
 
 **An Accurate, Flexible and Private Trajectory-based Contact Tracing System**  
 *Ruixuan Cao, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray"> *2022 iiWAS*</span>  
 
+**HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data**  
+*<u>Fumiyuki Kato</u>, Tsubasa Takahashi, Shun Takagi, Yang Cao, Seng Pei Liew, Masatoshi Yoshikawa*  
+<span style="color: gray"> *2022 VLDB*</span> [[paper link](https://arxiv.org/abs/2203.06791)] [[code](https://github.com/FumiyukiKato/HDPView)]
+
 **Network Shuffling: Privacy Amplification via Random Walks**  
 *Seng Pei Liew, Tsubasa Takahashi, Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray">*2022 ACM SIGMOD*</span> [[paper link](https://arxiv.org/abs/2204.03919)]
+
+**PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment**   
+*<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
+<span style="color: gray">*2021 ACM Transactions on Spatial Algorithms and Systems*</span> [[paper link](https://dl.acm.org/doi/10.1145/3490491)] [[code](https://github.com/ylab-public/PCT)]
 
 **Preventing Manipulation Attack in Local Differential Privacy using Verifiable Randomization Mechanism**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
@@ -43,10 +51,10 @@ socialImage: "/fumilemon.png"
 <span style="color: gray"> *2020 IEEE HEALTHCOM*</span> [[paper link](https://ieeexplore.ieee.org/document/9398978)]
 
 
-### Preprint
+<!-- ### Preprint
 **OLIVE: Oblivious and Differentially Private Federated Learning on Trusted Execution Environment**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2022 arxiv*</span> [[paper link](https://arxiv.org/abs/2202.07165)] [[code](https://github.com/FumiyukiKato/FL-TEE)]
+<span style="color: gray"> *2022 arxiv*</span> [[paper link](https://arxiv.org/abs/2202.07165)] [[code](https://github.com/FumiyukiKato/FL-TEE)] -->
 
 
 ### Domestic conference

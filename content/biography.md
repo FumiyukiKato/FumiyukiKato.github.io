@@ -31,10 +31,10 @@ I was born in Shiga, Japan.
   - English (Basic)
 
 ### Work Experience
-- Visiting schalor at *Emory University* (April 2023 - September 2023)
+- **(Visiting schalor)** at *Emory University* (April 2023 - September 2023)
   - Adademic research on Privacy enhancing technology (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
-- JSPS student research fellow (DC2) (April 2023 - March 2025)
-  - https://www.jsps.go.jp/english/e-pd/index.html
+- **(JSPS student research fellow (DC2))** (April 2023 - March 2025)
+  - Academic research on Privacy enhancing technologies.
 - **(Intern)** Data engineer at *Recruit Co.,Ltd*. (October 2022 - November 2022)
   - Implementing and validating Dynamic AB testing.
 - **(Intern)** Software engineer at *Preferred Networks*. (August 2022 - September 2022)
@@ -69,7 +69,7 @@ I was born in Shiga, Japan.
 - External reviewer: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022) -->
 
 ### Fundings
-- (2023年 4月 - 2025年 3月) JSPS student reseach fellow (DC2) (2,400,000 Yen / Year)
-- (December 2022) JSPS Overseas Challenge Program for Young Researchers (1,400,000 Yen) [[link]](https://www.jsps.go.jp/english/e-abc/index.html)
-- (April 2021 - March 2024) Kyoto University AI/Data science Fellowship. (2,100,000 Yen / Year) [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]
--  (March 2021) Exemption from repayment of scholarships of JASSO due to outstanding achievements. (half) [[link](https://www.jasso.go.jp/shogakukin/saiyochu/gyosekimenjo/hyoka.html)]
+- (April 2023 - March 2025) JSPS student reseach fellow (DC2) (2,400,000 JPY / Year) [[link](https://www.jsps.go.jp/english/e-pd/index.html)]
+- (December 2022) JSPS Overseas Challenge Program for Young Researchers (1,400,000 JPY) [[link](https://www.jsps.go.jp/english/e-abc/index.html)]
+- (April 2021 - March 2023) Kyoto University AI/Data science Fellowship. (2,100,000 JPY / Year) [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]
+-  (March 2021) Exemption from repayment of scholarships of JASSO due to outstanding achievements. [[link](https://www.jasso.go.jp/shogakukin/saiyochu/gyosekimenjo/hyoka.html)]
