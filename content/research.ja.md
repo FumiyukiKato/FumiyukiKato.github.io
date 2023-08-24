@@ -19,7 +19,7 @@ socialImage: "/fumilemon.png"
 
 **From Bounded to Unbounded: Privacy Amplification via Shuffling with Dummies**  
 *Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2023 IEEE CSF*</span>  
+<span style="color: gray"> *2023 IEEE CSF*</span> [[paper link](https://www.computer.org/csdl/proceedings-article/csf/2023/219200a520/1On91mkCzyE)]  
 
 **Asymmetric Differential Privacy**  
 *Shun Takagi, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
@@ -27,7 +27,7 @@ socialImage: "/fumilemon.png"
 
 **An Accurate, Flexible and Private Trajectory-based Contact Tracing System**  
 *Ruixuan Cao, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2022 iiWAS*</span>  
+<span style="color: gray"> *2022 iiWAS*</span> [[paper link](https://link.springer.com/chapter/10.1007/978-3-031-21047-1_35)]  
 
 **HDPView: Differentially Private Materialized View for Exploring High Dimensional Relational Data**  
 *<u>Fumiyuki Kato</u>, Tsubasa Takahashi, Shun Takagi, Yang Cao, Seng Pei Liew, Masatoshi Yoshikawa*  
@@ -53,10 +53,10 @@ socialImage: "/fumilemon.png"
 *Zheng Wen, Keping Yu, Xin Qi, Toshio Sato, Yutaka Katsuyama,Takuro Sato, Wataru Kameyama, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa, Min Luo and Jun Hashimoto*  
 <span style="color: gray"> *2020 IEEE HEALTHCOM*</span> [[paper link](https://ieeexplore.ieee.org/document/9398978)]
 
-<!-- ### プレプリント
-**OLIVE: Oblivious and Differentially Private Federated Learning on Trusted Execution Environment**  
-*<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2022 arxiv*</span> [[paper link](https://arxiv.org/abs/2202.07165)] [[code](https://github.com/FumiyukiKato/FL-TEE)] -->
+### プレプリント
+**ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy**  
+*<u>Fumiyuki Kato</u>, Li Xiong, Shun Takagi, Yang Cao, Masatoshi Yoshikawa*  
+<span style="color: gray"> *2023 arxiv*</span> [[paper link](https://arxiv.org/abs/2308.12210)] [[code](https://github.com/fumiyukikato/uldp-fl)]
 
 
 ### 国内会議

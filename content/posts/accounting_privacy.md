@@ -303,13 +303,11 @@ $$
 
 下の図は，Advanced compositionと比べると，たくさんの回数イテレーションしてもmoments accountantの方がタイトな上界を与えることを示している．advanced compositionは+ samplingによって$1/q$になっている．
 
-<img src="/post-img/accounting_privacy/advanced-vs-ma.png" alt="Advanced composition vs moments accountant" width="250" height="250">
-
 
 <figure>
   <img
   src="/post-img/accounting_privacy/advanced-vs-ma.png"
-  alt="DP-SGD overview">
+  alt="Advanced composition vs moments accountant">
   <figcaption>Advanced composition vs moments accountant</figcaption>
 </figure>
 
