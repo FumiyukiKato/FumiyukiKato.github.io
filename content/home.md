@@ -17,7 +17,7 @@ socialImage: "/fumilemon.png"
 
 <div>
 
-**I'm a PhD student (D3) at [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start), [Kyoto University](https://www.i.kyoto-u.ac.jp/en/).**
+**I'm a PhD student at [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start), [Kyoto University](https://www.i.kyoto-u.ac.jp/en/).**
 **I work on my doctoral studies under the supervision of Prof. [Yang Cao](https://yangcao88.github.io/), Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) and Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/).**
 
 **My research interests are privacy and security enhancing technologies in data engineering, especially in, Differential Privacy, Federated Learning, Trusted Execution Environments.**
@@ -30,9 +30,10 @@ socialImage: "/fumilemon.png"
 
 ---
 ### Recent News
+- *(2023/10)* I have returned back to Kyoto University 🇯🇵
 - *(2023/8)* We have published a new arXiv preprint "[ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy](https://arxiv.org/abs/2308.12210)".
 - *(2023/05)* Our paper "OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification." is accepted by [VLDB'23](https://vldb.org/2023/) 🎉
 - *(2023/05)* Our paper "From Bounded to Unbounded: Privacy Amplification via Shuffling with Dummies" is accepted by [CSF'23](https://csf2023.ieee-security.org/) 🎉
 - *(2023/04/01)* 3rd year in PhD degree starts.
-- *(2023/04 - 2023/10)* I started to visit [AIMS Lab](http://www.cs.emory.edu/site/aims/index.html) at Emory University as a visiting scholar. (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/))
+- *(2023/04 - 2023/10)* I started to visit [AIMS Lab](http://www.cs.emory.edu/site/aims/index.html) at Emory University as a visiting research scholar. (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/))
 

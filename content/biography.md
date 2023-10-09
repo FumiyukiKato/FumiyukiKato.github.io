@@ -1,18 +1,24 @@
 ---
-title: "Biography"
+title: "Profile"
 template: "page"
 socialImage: "/fumilemon.png"
 ---
 
-**CV [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]** (Last updated on May 16 2023)
+**CV [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]** (Last updated on Oct 8 2023)
 
 I was born in Shiga, Japan.  
 [Arsenal](https://twitter.com/Arsenal) fan. 
 
-### Education
+### Biography
 - April 2021 - present
   - PhD student in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
   - Focus on Privacy and Security of data engineering. (supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+- April 2023 - September 2023
+  - **(Visiting Scholar)** at *Emory University*
+  - Work on private federated learning (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
+- April 2023 - March 2025
+  - **(JSPS student research fellow (DC2))**
+  - Work on academic research on Privacy enhancing technologies.
 - April 2019 - March 2021
   - M.S. degree in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
   - Master Thesis: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. (supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
@@ -32,10 +38,6 @@ I was born in Shiga, Japan.
   - English (Basic)
 
 ### Work Experience
-- **(Visiting schalor)** at *Emory University* (April 2023 - September 2023)
-  - As a visting PhD student, working on adademic research on private federated learning (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
-- **(JSPS student research fellow (DC2))** (April 2023 - March 2025)
-  - Academic research on Privacy enhancing technologies.
 - **(Intern)** Data engineer at *Recruit Co.,Ltd*. (October 2022 - November 2022)
   - Implementing and validating Dynamic AB testing.
 - **(Intern)** Software engineer at *Preferred Networks*. (August 2022 - September 2022)

@@ -1,19 +1,25 @@
 ---
-title: "略歴"
+title: "プロフィール"
 template: "page-ja"
 socialImage: "/fumilemon.png"
 ---
 
-**CV(英語) [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]** (Last updated on May 16 2023)
+**CV(英語) [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]** (Last updated on Oct 8 2023)
 
 滋賀県大津市出身．  
 [アーセナル](https://twitter.com/Arsenal)ファン．
 
-### 学校
+### 来歴
 - 2021年 4月 - 現在
   - 京都大学大学院情報学研究科社会情報学専攻博士後期課程 ([吉川・馬研究室](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start))
   - データ工学におけるプライバシとセキュリティに注目して研究しています． 
   - 指導教員: [Yang Cao](https://yangcao88.github.io/) 先生， [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) 教授
+- 2023年 4月 - 2023年 9月
+  - エモリー大学で客員研究員
+  - プライバシ保護型の Federated Learningに関する学術研究に従事． (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
+- 2023年 4月 - 2025年 3月
+  - 日本学術振興会特別研究員 (DC2)
+  - プライバシ保護技術に関する学術研究に従事．
 - 2019年 4月 - 2021年 3月
   - 京都大学大学院情報学研究科社会情報学専攻博士前期課程 修了
   - 修士論文: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. <span style="color: red">(優秀修士論文賞)</span>
@@ -36,10 +42,6 @@ socialImage: "/fumilemon.png"
 
 
 ### 実務経験
-- **(客員研究員)** at *Emory University* (2023年 4月 - 2023年 9月)
-  - プライバシ保護型の Federated Learningに関する学術研究 (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
-- **(日本学術振興会特別研究員 (DC2))** at *JSPS* (2023年 4月 - 2025年 3月)
-  - プライバシ保護技術に関する学術研究で採用．
 - **(インターン)** データエンジニア at *株式会社リクルート*. (2022年 10月 - 2022年 11月)
   - 動的A/BテストのPoC．
 - **(インターン)** ソフトウェアエンジニア at *Preferred Networks*. (2022年 8月 - 2022年 9月)

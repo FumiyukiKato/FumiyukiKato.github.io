@@ -12,7 +12,7 @@ module.exports = {
   useKatex: true,
   menu: [
     {
-      label: 'Biography',
+      label: 'Profile',
       path: '/biography'
     },
     // {
@@ -26,7 +26,7 @@ module.exports = {
   ],
   jaMenu: [
     {
-      label: '略歴',
+      label: 'プロフィール',
       path: '/ja/biography'
     },
     {
