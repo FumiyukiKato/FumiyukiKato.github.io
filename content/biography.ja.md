@@ -15,7 +15,7 @@ socialImage: "/fumilemon.png"
   - データ工学におけるプライバシとセキュリティに注目して研究しています． 
   - 指導教員: [Yang Cao](https://yangcao88.github.io/) 先生， [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) 教授
 - 2023年 4月 - 2023年 9月
-  - エモリー大学で客員研究員
+  - エモリー大学 客員研究員
   - プライバシ保護型の Federated Learningに関する学術研究に従事． (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
 - 2023年 4月 - 2025年 3月
   - 日本学術振興会特別研究員 (DC2)

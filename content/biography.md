@@ -14,10 +14,10 @@ I was born in Shiga, Japan.
   - PhD student in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
   - Focus on Privacy and Security of data engineering. (supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - April 2023 - September 2023
-  - **(Visiting Scholar)** at *Emory University*
+  - Visiting Scholar at *Emory University*
   - Work on private federated learning (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
 - April 2023 - March 2025
-  - **(JSPS student research fellow (DC2))**
+  - JSPS student research fellow (DC2)
   - Work on academic research on Privacy enhancing technologies.
 - April 2019 - March 2021
   - M.S. degree in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
