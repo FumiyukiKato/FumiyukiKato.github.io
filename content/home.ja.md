@@ -8,7 +8,7 @@ socialImage: "/fumilemon.png"
 
 <figure class="float-left" style="width: 200px">
 	<img src="/self.jpeg" alt="My profile image">
-	<figcaption>自撮り(2021年)</figcaption>
+	<figcaption>証明写真BOX(2023年)</figcaption>
 </figure>
 <figure class="float-left" style="width: 200px">
 	<img src="/fumilemon.png" alt="My icon image">

@@ -8,7 +8,7 @@ socialImage: "/fumilemon.png"
 
 <figure class="float-left" style="width: 200px">
 	<img src="/self.jpeg" alt="My profile image">
-	<figcaption>My selfie in 2021</figcaption>
+	<figcaption>in 2023</figcaption>
 </figure>
 <figure class="float-left" style="width: 200px">
 	<img src="/fumilemon.png" alt="My icon image">
