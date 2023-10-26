@@ -20,7 +20,7 @@ socialImage: "/fumilemon.png"
 **I'm a PhD student at [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start), [Kyoto University](https://www.i.kyoto-u.ac.jp/en/).**
 **I work on my doctoral studies under the supervision of Prof. [Yang Cao](https://yangcao88.github.io/), Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) and Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/).**
 
-**My research interests are privacy and security enhancing technologies in data engineering, especially in, Differential Privacy, Federated Learning, Trusted Execution Environments.**
+**My research interests are privacy and security enhancing technologies in data engineering, especially in, Federated Learning, Differential Privacy and Trusted Execution Environments.**
 
 **I love Soccer ⚽️ and Beer 🍻.**
 
