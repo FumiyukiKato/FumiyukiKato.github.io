@@ -31,7 +31,7 @@ socialImage: "/fumilemon.png"
 ---
 
 ### 最近の話題
-- 卒業して4月からは株式会社Preferred Networksでエンジニア・リサーチャーとして働きます．お世話になった皆様，ありがとうございました．
+- 卒業して4月からは株式会社Preferred Networksでエンジニア・リサーチャーとして働きます．卒業までお世話になった皆様，ありがとうございました．
 - *(2024/01)* 博士論文 "プライベートで安全な連合学習" ("A Study on Private and Secure Federated Learning")のディフェンスに成功しました 🎉
 - *(2023/08)* プレプリントを公開しました "[ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy](https://arxiv.org/abs/2308.12210)"
 - *(2023/05)* 主著論文の"OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification." が [VLDB'23](https://vldb.org/2023/) に採択されました 🎉
