@@ -2,6 +2,7 @@
 title: "Fumiyuki Kato"
 template: "page"
 socialImage: "/fumilemon.png"
+draft: false
 ---
 
 <div style="display: inline-block">
