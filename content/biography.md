@@ -10,9 +10,10 @@ I was born in Shiga, Japan.
 [Arsenal](https://twitter.com/Arsenal) fan. 
 
 ### Biography
-- April 2021 - present
+- April 2021 - March 2024
   - PhD student in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Focus on Privacy and Security of data engineering. (supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+  - Doctoral Thesis: A Study on Private and Secure Federated Learning. 
+  - Supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html)
 - April 2023 - September 2023
   - Visiting Scholar at *Emory University*
   - Work on private federated learning (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).

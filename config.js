@@ -15,10 +15,6 @@ module.exports = {
       label: 'Profile',
       path: '/biography'
     },
-    // {
-    //   label: 'メモ',
-    //   path: '/post'
-    // },
     {
       label: 'Research',
       path: '/research'
@@ -33,10 +29,10 @@ module.exports = {
       label: '研究',
       path: '/ja/research'
     },
-    {
-      label: 'ノート',
-      path: '/post'
-    },
+    // {
+    //   label: 'ノート',
+    //   path: '/post'
+    // },
   ],
   author: {
     name: 'Fumiyuki Kato / 加藤 郁之',

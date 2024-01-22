@@ -31,9 +31,9 @@ socialImage: "/fumilemon.png"
 ---
 
 ### 最近の話題
-- *(2023/10)* 京都大学に帰ってきました 🇯🇵
-- *(2023/8)* プレプリントを公開しました "[ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy](https://arxiv.org/abs/2308.12210)"
+- 卒業して4月からは株式会社Preferred Networksでエンジニア・リサーチャーとして働きます．お世話になった皆様，ありがとうございました．
+- *(2024/01)* 博士論文 "プライベートで安全な連合学習" ("A Study on Private and Secure Federated Learning")のディフェンスに成功しました 🎉
+- *(2023/08)* プレプリントを公開しました "[ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy](https://arxiv.org/abs/2308.12210)"
 - *(2023/05)* 主著論文の"OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification." が [VLDB'23](https://vldb.org/2023/) に採択されました 🎉
 - *(2023/05)* 共著論文の"From Bounded to Unbounded: Privacy Amplification via Shuffling with Dummies" が [CSF'23](https://csf2023.ieee-security.org/) に採択されました 🎉
-- *(2023/04/01)* D3になりました．
 - *(2023/04 - 2023/10)* エモリー大学の [AIMS Lab](http://www.cs.emory.edu/site/aims/index.html) に客員研究員として滞在します．(supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/))
