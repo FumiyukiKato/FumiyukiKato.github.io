@@ -4,6 +4,7 @@ module.exports = {
   url: 'https://fumiyukikato.github.io/',
   pathPrefix: '/',
   title: 'Fumiyuki Kato',
+  subtitle: '',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
