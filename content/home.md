@@ -18,8 +18,7 @@ draft: false
 
 <div>
 
-**I am a software engineer at [Preferred Networks, Inc.](https://www.preferred.jp/en/) and Ph.D in Informatics.**
-**During my doctoral work, I studied privacy enhancing technologies in data engineering, such as FL, DP and TEE.**
+**I am a software engineer at [Preferred Networks, Inc.](https://www.preferred.jp/en/).**
 
 **I love soccer ⚽️ and beer 🍻. A big fan of [Arsenal](https://twitter.com/Arsenal).**
 
@@ -29,8 +28,8 @@ draft: false
 
 ---
 ### Recent News
-- *(2024/05)* Our paper "HRNet: Differentially Private Hierarchical and Multi-Resolution Network for Human Mobility Data Synthesization" has been accepted at [VLDB 2024](https://vldb.org/2024/) 🎉.
-- *(2024/05)* Our paper "ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy" has been accepted at [VLDB 2024](https://vldb.org/2024/) 🎉.
-- *(2024/04)* I have started working as a software engineer at [Preferred Networks, Inc.](https://www.preferred.jp/en/).
+<!-- - *(2024/06)* Our paper "HRNet: Differentially Private Hierarchical and Multi-Resolution Network for Human Mobility Data Synthesization" has been accepted at [VLDB 2024](https://vldb.org/2024/) 🎉 -->
+- *(2024/06)* Our paper "ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy" has been accepted at [VLDB 2024](https://vldb.org/2024/) 🎉
+- *(2024/04)* I have started working as a software engineer at [Preferred Networks, Inc.](https://www.preferred.jp/en/)
 - *(2024/03)* I was awarded the 20th DBSJ Kanbayashi Young Researcher Award 🎉
 - *(2024/01)* I successfully defended my doctoral thesis titled "A Study on Private and Secure Federated Learning". 🎉 Thank you all!

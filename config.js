@@ -37,7 +37,7 @@ module.exports = {
   author: {
     name: 'Fumiyuki Kato / 加藤 郁之',
     photo: '/fumilemon.png',
-    bio: 'Software Engineer at Preferred Networks. PhD in Informatics.',
+    bio: 'Ph.D in Informatics. Engineer at Preferred Networks.',
     contacts: {
       email: 'fumilemon79@gmail.com',
       facebook: '',

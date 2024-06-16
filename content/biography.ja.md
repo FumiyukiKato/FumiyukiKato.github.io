@@ -8,12 +8,12 @@ socialImage: "/fumilemon.png"
 
 ### 職歴
 - 2024年 4月 - 現在
-  - [株式会社Preferred Networks](https://www.preferred.jp/en/) ソフトウェアエンジニア
+  - **[株式会社Preferred Networks](https://www.preferred.jp/en/) ソフトウェアエンジニア**
 - 2023年 4月 - 2023年 9月
-  - エモリー大学 客員研究員
+  - **エモリー大学 客員研究員**
   - [Li Xiong](http://www.cs.emory.edu/~lxiong/)教授と一緒に，プライバシ保護型の Federated Learningに関する学術研究に従事．
 - 2023年 4月 - 2024年 3月
-  - 日本学術振興会 特別研究員DC (DC2)
+  - **日本学術振興会 特別研究員DC (DC2)**
   - プライバシ保護技術に関する学術研究に従事．
 
 ### 学歴
@@ -29,7 +29,6 @@ socialImage: "/fumilemon.png"
   - 京都大学工学部情報学科計算機科学コース 卒業
   - 卒業論文: 報道元と報道時期を利用したWeb記事による将来予測
   - 指導教員: [加藤 誠](https://www.mpkato.net/) 先生， [吉川 正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html) 教授
-- 2015年 3月 [膳所高等学校](http://www.zeze-h.shiga-ec.ed.jp/) 卒業
 
 
 ### スキル

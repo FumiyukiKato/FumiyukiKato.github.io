@@ -8,19 +8,19 @@ socialImage: "/fumilemon.png"
 
 ### Work
 - April 2024 - present
-  - Software Engineer at [Preferred Networks, Inc](https://www.preferred.jp/en/).
+  - **Software Engineer at [Preferred Networks, Inc](https://www.preferred.jp/en/).**
 - April 2023 - September 2023
-  - Visiting Scholar at *Emory University*
+  - **Visiting Scholar at *Emory University***
   - Work on private federated learning (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
 - April 2023 - March 2024
-  - JSPS (Japan Society for the Promotion of Science) Student Research Fellow (DC2)
+  - **JSPS (Japan Society for the Promotion of Science) Student Research Fellow (DC2)**
   - Work on academic research on privacy enhancing technologies.
 
 
 ### Education
 - April 2021 - March 2024
   - Ph.D. in Informatics at the Department of Social Informatics, Graduate School of Informatics, Kyoto University.
-  - Doctoral Thesis: A Study on Private and Secure Federated Learning.
+  - Doctoral Thesis: A Study on Private and Secure Federated Learning. [<a href="/d_thesis_kato.pdf" target="_blank" rel="noopener noreferrer">slide</a>]  
   - Supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html)
 - April 2019 - March 2021
   - Master of Informatics at the Department of Social Informatics, Graduate School of Informatics, Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
@@ -28,7 +28,6 @@ socialImage: "/fumilemon.png"
 - April 2015 - March 2019
   - Bachelor of Engineering in Computer Science, Informatics and Mathematical Science, Faculty of Engineering, Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
   - Bachelor's Thesis Future Prediction based on Web News Articles with Publication Source and Time. (supervised by Prof. [Makoto P. Kato](https://www.mpkato.net/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
-- March 2015, Graduated from [Zeze high school](http://www.zeze-h.shiga-ec.ed.jp/), Shiga.
 
 
 ### Skills
