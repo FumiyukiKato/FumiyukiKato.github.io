@@ -12,7 +12,13 @@ socialImage: "/fumilemon.png"
 
 
 ### 国際会議 / ジャーナル
+**ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy**  
+*<u>Fumiyuki Kato</u>, Li Xiong, Shun Takagi, Yang Cao, Masatoshi Yoshikawa*  
+<span style="color: gray">*2024 VLDB* (CORE rank A*)</span> [[paper link](https://arxiv.org/abs/2308.12210)] [[code](https://github.com/fumiyukikato/uldp-fl)]  
 
+**HRNet: Differentially Private Hierarchical and Multi-Resolution Network for Human Mobility Data Synthesization**  
+*Shun Takagi, Li Xiong, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
+<span style="color: gray">*2024 VLDB* (CORE rank A*)</span>  
 
 **OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
@@ -54,30 +60,38 @@ socialImage: "/fumilemon.png"
 *Zheng Wen, Keping Yu, Xin Qi, Toshio Sato, Yutaka Katsuyama,Takuro Sato, Wataru Kameyama, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa, Min Luo and Jun Hashimoto*  
 <span style="color: gray"> *2020 IEEE HEALTHCOM* (CORE rank C)</span> [[paper link](https://ieeexplore.ieee.org/document/9398978)]
 
-### プレプリント
-**ULDP-FL: Federated Learning with Across Silo User-Level Differential Privacy**  
+<!-- ### プレプリント
+**Personalized User-Level Differentially Private Cross-Silo Federated Learning**  
 *<u>Fumiyuki Kato</u>, Li Xiong, Shun Takagi, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray"> *2023 arxiv*</span> [[paper link](https://arxiv.org/abs/2308.12210)] [[code](https://github.com/fumiyukikato/uldp-fl)]
+<span style="color: gray"> *2024 arxiv*</span>  -->
 
 
-### 国内会議 (Non-refereed)
+<!-- ### 国内会議 (査読なし)
+**階層構造・多重解像度による差分プライベートな深層人流生成**
+*高木 駿, <u>加藤 郁之</u> , Yang Cao, 吉川 正俊*  
+<span style="color: gray">*2024 DEIM*</span>
+
+**個人化されたユーザレベルの差分プライバシ保護型連合学習**
+*<u>加藤 郁之</u>, 高木 駿, Li Xiong, Yang Cao, 吉川 正俊*  
+<span style="color: gray">*2024 DEIM*</span>
+
 **TEEを備えた軌跡ベースのプライバシ保護型接触追跡システムにおける付加情報の利用**  
-*Cao Ruixuan, <u>加藤 郁之</u>, 曹 洋, 吉川 正俊*  
+*Cao Ruixuan, <u>加藤 郁之</u>, Yang Cao, 吉川 正俊*  
 <span style="color: gray">*2022 DEIM*</span>
 
 **多次元データへのカウントクエリに適した差分プライバシ**  
-*<u>加藤 郁之</u>, 高橋翼, 曹 洋, 吉川 正俊*  
+*<u>加藤 郁之</u>, 高橋 翼, Yang Cao, 吉川 正俊*  
 <span style="color: gray">*2021 DEIM*</span> [[paper link](https://proceedings-of-deim.github.io/DEIM2021/papers/G33-2.pdf)]
 
 **TEEに基づく差分プライバシの検証**  
-*<u>加藤 郁之</u>, 曹 洋，吉川 正俊*  
+*<u>加藤 郁之</u>, Yang Cao，吉川 正俊*  
 <span style="color: gray">*2020 DEIM*</span> [[paper link](https://db-event.jpn.org/deim2020/post/proceedings/papers/E4-2.pdf)]
 
 **プライバシ保護深層学習のためのSGX分散処理の提案**  
-*加納 英樹，<u>加藤 郁之</u>，ティブシ メディ，阿部 正幸，曹 洋*  
+*加納 英樹，<u>加藤 郁之</u>，ティブシ メディ，阿部 正幸，Yang Cao*  
 <span style="color: gray">*2020 SCIS*</span>
 
 **報道元と報道時期を利用したWeb記事による将来予測**  
 *<u>加藤 郁之</u>, 吉川 正俊, 加藤 誠*  
 <span style="color: gray">*2019 DEIM*</span> [[paper link](https://db-event.jpn.org/deim2019/post/papers/289.pdf)]
-
+ -->

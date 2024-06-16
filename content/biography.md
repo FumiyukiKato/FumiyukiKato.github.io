@@ -6,39 +6,40 @@ socialImage: "/fumilemon.png"
 
 **CV [<a href="/kato_cv_en.pdf" target="_blank" rel="noopener noreferrer">CV</a>]** (Last updated on Oct 8 2023)
 
-I was born in Shiga, Japan.  
-[Arsenal](https://twitter.com/Arsenal) fan. 
-
-### Biography
-- April 2021 - March 2024
-  - PhD student in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Doctoral Thesis: A Study on Private and Secure Federated Learning. 
-  - Supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html)
+### Work
+- April 2024 - present
+  - Software Engineer at [Preferred Networks, Inc](https://www.preferred.jp/en/).
 - April 2023 - September 2023
   - Visiting Scholar at *Emory University*
   - Work on private federated learning (supervised by Prof. [Li Xiong](http://www.cs.emory.edu/~lxiong/)).
-- April 2023 - March 2025
-  - JSPS student research fellow (DC2)
-  - Work on academic research on Privacy enhancing technologies.
+- April 2023 - March 2024
+  - JSPS (Japan Society for the Promotion of Science) Student Research Fellow (DC2)
+  - Work on academic research on privacy enhancing technologies.
+
+
+### Education
+- April 2021 - March 2024
+  - Ph.D. in Informatics at the Department of Social Informatics, Graduate School of Informatics, Kyoto University.
+  - Doctoral Thesis: A Study on Private and Secure Federated Learning.
+  - Supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html)
 - April 2019 - March 2021
-  - M.S. degree in Informatics. at Department of Social Informatics Graduate School of Informatics Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Master Thesis: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. (supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+  - Master of Informatics at the Department of Social Informatics, Graduate School of Informatics, Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
+  - Master's Thesis: PCT-TEE: Trajectory-based Private Contact Tracing System with Trusted Execution Environment. (supervised by Prof. [Yang Cao](https://yangcao88.github.io/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - April 2015 - March 2019
-  - B.S. degree in Engineering. Computer science course of Informatics and Mathematical Science, Faculty of Engineering, Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
-  - Bachelor Thesis: Future Prediction based on Web News Articles with Publication Source and Time. (supervised by Prof. [Makoto P. Kato](https://www.mpkato.net/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
+  - Bachelor of Engineering in Computer Science, Informatics and Mathematical Science, Faculty of Engineering, Kyoto University, [Yoshikawa, Ma Lab](https://www.db.soc.i.kyoto-u.ac.jp/doku.php/en:start)
+  - Bachelor's Thesis Future Prediction based on Web News Articles with Publication Source and Time. (supervised by Prof. [Makoto P. Kato](https://www.mpkato.net/) and Prof. [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/index-en.html))
 - March 2015, Graduated from [Zeze high school](http://www.zeze-h.shiga-ec.ed.jp/), Shiga.
-  - Soccer club
 
 
 ### Skills
 - Programming
   - Advanced: Python
-  - Basic: C++, Rust, Perl, Kotlin, Java, Javascript(Typescript), Pytorch, GCP, AWS
+  - Basic: C++, Rust, Perl, Kotlin, Java, JS(TS), Pytorch, AWS
 - Languages
   - Japanese (Native)
   - English (Basic)
 
-### Work Experience
+<!-- ### Work Experience
 - **(Intern)** Data engineer at *Recruit Co.,Ltd*. (October 2022 - November 2022)
   - Implementing and validating Dynamic AB testing.
 - **(Intern)** Software engineer at *Preferred Networks*. (August 2022 - September 2022)
@@ -56,13 +57,14 @@ I was born in Shiga, Japan.
 - **(Part-time)** Software engineer at *MediaMaxJapan Inc*. (July 2018 - March 2019)
   - Developing web applications mainly using Kotlin and TS. In particular, I was able to experience development that strictly followed DDD.
 - **(Intern)** Software engineer at *Kiizan Kiizan Inc*. (Feburary 2018 - May 2018)
-  - Developing web applications mainly using Ruby.
+  - Developing web applications mainly using Ruby. -->
 
 <!-- ### Academic activities
 - [日本データベース学会学生企画](https://db-event.jpn.org/dbsj_students/)
 - [SIGMOD-J 講演 CIKM2020国際会議報告](http://www.sigmodj.org/conf/detail.php?conf_no=75) -->
 
 ### Awards
+- The 20th [DBSJ Kanbayashi Young Researcher Award](https://dbsj.org/en/overview/awards/) (March 2024)
 - Excellent Research Award at Kyoto University’s 16th ICT Innovation (Feb 2022) [<a href="/ICT-innovation-kato-2-18-2022.jpg" target="_blank" rel="noopener noreferrer">poster</a>]
 - DEIM 2021 Student presentation award (Mar 2021)
 - Master thesis award of social informatics department of Kyoto University (Feb 2021)
@@ -72,8 +74,8 @@ I was born in Shiga, Japan.
 <!-- ### Academic Services
 - External reviewer: ICDE 2021, KDD 2022, TKDE (2021, 2022), Knowledge-Based Systems (2022) -->
 
-### Fundings
-- (April 2023 - March 2025) JSPS student reseach fellow (DC2) (2,400,000 JPY / Year) [[link](https://www.jsps.go.jp/english/e-pd/index.html)]
+### Funding
+- (April 2023 - March 2024) JSPS student research fellow (DC2) (2,400,000 + 1,000,000 JPY / Year) [[link](https://www.jsps.go.jp/english/e-pd/index.html)]
 - (December 2022) JSPS Overseas Challenge Program for Young Researchers (1,400,000 JPY) [[link](https://www.jsps.go.jp/english/e-abc/index.html)]
 - (April 2021 - March 2023) Kyoto University AI/Data science Fellowship. (2,100,000 JPY / Year) [[link](http://www.i.kyoto-u.ac.jp/fellowship/index.html)]
--  (March 2021) Exemption from repayment of scholarships of JASSO due to outstanding achievements. [[link](https://www.jasso.go.jp/shogakukin/saiyochu/gyosekimenjo/hyoka.html)]
+- (March 2021) Exemption from repayment of scholarships of JASSO due to outstanding achievements. [[link](https://www.jasso.go.jp/shogakukin/saiyochu/gyosekimenjo/hyoka.html)]
