@@ -16,9 +16,9 @@ socialImage: "/fumilemon.png"
 *<u>Fumiyuki Kato</u>, Li Xiong, Shun Takagi, Yang Cao, Masatoshi Yoshikawa*  
 <span style="color: gray">*2024 VLDB* (CORE rank A*)</span> [[paper link](https://arxiv.org/abs/2308.12210)] [[code](https://github.com/fumiyukikato/uldp-fl)]  
 
-<!-- **HRNet: Differentially Private Hierarchical and Multi-Resolution Network for Human Mobility Data Synthesization**  
+**HRNet: Differentially Private Hierarchical and Multi-Resolution Network for Human Mobility Data Synthesization**  
 *Shun Takagi, Li Xiong, <u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
-<span style="color: gray">*2024 VLDB* (CORE rank A*)</span>  [[paper link](https://arxiv.org/abs/2405.08043)] [[code](https://github.com/tkgsn/priv_traj_gen)]   -->
+<span style="color: gray">*2024 VLDB* (CORE rank A*)</span>  [[paper link](https://arxiv.org/abs/2405.08043)] [[code](https://github.com/tkgsn/priv_traj_gen)]  
 
 **OLIVE: oblivious federated learning on trusted execution environment against the risk of sparsification**  
 *<u>Fumiyuki Kato</u>, Yang Cao, Masatoshi Yoshikawa*  
