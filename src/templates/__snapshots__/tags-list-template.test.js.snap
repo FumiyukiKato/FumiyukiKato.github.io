@@ -24,20 +24,6 @@ exports[`TagsListTemplate renders correctly 1`] = `
             width="75"
           />
         </a>
-        <div
-          className="author__lang"
-        >
-          <h4>
-             En / 
-            <a
-              className="author__sub_lang"
-              href="/ja/"
-            >
-              Ja
-            </a>
-             
-          </h4>
-        </div>
         <h2
           className="author__title"
         >
