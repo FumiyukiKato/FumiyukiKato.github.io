@@ -18,9 +18,7 @@ draft: false
 
 <div>
 
-**I am a software engineer at [Preferred Networks, Inc.](https://www.preferred.jp/en/).**
-
-**I love soccer ⚽️ and beer 🍻. A big fan of [Arsenal](https://twitter.com/Arsenal).**
+**I am a software engineer at [Preferred Networks, Inc.](https://www.preferred.jp/en/) I love soccer ⚽️ and beer 🍻. A big fan of [Arsenal](https://twitter.com/Arsenal).**
 
 </div>
 

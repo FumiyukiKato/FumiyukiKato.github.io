@@ -38,11 +38,11 @@ socialImage: "/fumilemon.png"
   - Japanese (Native)
   - English (Basic)
 
-<!-- ### Work Experience
+### Work Experience
 - **(Intern)** Data engineer at *Recruit Co.,Ltd*. (October 2022 - November 2022)
   - Implementing and validating Dynamic AB testing.
 - **(Intern)** Software engineer at *Preferred Networks*. (August 2022 - September 2022)
-  - Developing OTA system.
+  -  OTA system.
 - **(Intern + part-time)** Researcher at *LINE Corporation*. (August 2020 - March 2021)
   - Research privacy enhanced technologies. [[blog post](https://engineering.linecorp.com/ja/blog/differentially-private-data-exploration-for-multidimensional-data/)]
 - **(Part-time)** Web application engineer at *Hatena Inc*. (May 2019 - August 2020)
@@ -56,7 +56,7 @@ socialImage: "/fumilemon.png"
 - **(Part-time)** Software engineer at *MediaMaxJapan Inc*. (July 2018 - March 2019)
   - Developing web applications mainly using Kotlin and TS. In particular, I was able to experience development that strictly followed DDD.
 - **(Intern)** Software engineer at *Kiizan Kiizan Inc*. (Feburary 2018 - May 2018)
-  - Developing web applications mainly using Ruby. -->
+  - Developing web applications mainly using Ruby.
 
 <!-- ### Academic activities
 - [日本データベース学会学生企画](https://db-event.jpn.org/dbsj_students/)

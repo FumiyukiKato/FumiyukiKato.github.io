@@ -20,22 +20,8 @@ module.exports = {
       path: '/research'
     }
   ],
-  jaMenu: [
-    {
-      label: 'プロフィール',
-      path: '/ja/biography'
-    },
-    {
-      label: '研究',
-      path: '/ja/research'
-    },
-    // {
-    //   label: 'ノート',
-    //   path: '/post'
-    // },
-  ],
   author: {
-    name: 'Fumiyuki Kato / 加藤 郁之',
+    name: 'Fumiyuki Kato',
     photo: '/fumilemon.png',
     bio: 'Ph.D in Informatics. Engineer at Preferred Networks.',
     contacts: {
