@@ -18,8 +18,9 @@ draft: false
 
 <div>
 
-**I am a software engineer at [Preferred Networks, Inc](https://www.preferred.jp/en/).**  
-**I love Soccer ⚽️ and Beer 🍻.**
+**I have completed my PhD. Thank you.**
+**I’ve started working as a software engineer at [Preferred Networks, Inc](https://www.preferred.jp/en/).**  
+**See you around.**
 
 </div>
 
